@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-scale: 1;
+  }
+
+  html {
+    font-size: calc(16px * var(--font-scale));
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+    font-family: Inter, 'Noto Sans Tamil', 'Nirmala UI', system-ui, sans-serif;
+  }
+
+  /* Tamil needs slightly more line height to stay readable at small sizes. */
+  [lang='ta'],
+  .font-tamil {
+    font-family: 'Noto Sans Tamil', 'Nirmala UI', Latha, Inter, sans-serif;
+    line-height: 1.75;
+  }
+
+  /* Every interactive element must be reachable and visible by keyboard. */
+  :focus-visible {
+    @apply outline-none ring-2 ring-brand-500 ring-offset-2 ring-offset-slate-50;
+  }
+
+  /* High-contrast mode for low-vision users, toggled from the header. */
+  .contrast-boost {
+    --tw-text-opacity: 1;
+  }
+  .contrast-boost body,
+  .contrast-boost .card {
+    @apply bg-white text-black;
+  }
+  .contrast-boost .text-slate-500,
+  .contrast-boost .text-slate-600 {
+    @apply text-slate-900;
+  }
+  .contrast-boost .card {
+    @apply border-2 border-slate-900;
+  }
+}
+
+@layer components {
+  .card {
+    @apply rounded-2xl border border-slate-200 bg-white shadow-sm;
+  }
+
+  /* 44px minimum tap target — seniors and small screens. */
+  .btn {
+    @apply inline-flex min-h-[44px] items-center justify-center gap-2 rounded-xl px-5 py-2.5
+           text-sm font-semibold transition-colors disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-primary {
+    @apply btn bg-brand-700 text-white hover:bg-brand-800;
+  }
+  .btn-accent {
+    @apply btn bg-accent-700 text-white hover:bg-accent-800;
+  }
+  .btn-ghost {
+    @apply btn border border-slate-300 bg-white text-slate-700 hover:bg-slate-50;
+  }
+
+  .input {
+    @apply w-full min-h-[44px] rounded-xl border border-slate-300 bg-white px-4 py-2.5
+           text-base placeholder:text-slate-400 focus:border-brand-500;
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold;
+  }
+
+  .skeleton {
+    @apply animate-pulse rounded-lg bg-slate-200;
+  }
+
+  .prose-simple p {
+    @apply mb-4 leading-relaxed text-slate-700;
+  }
+}
+
+@media print {
+  .no-print { display: none !important; }
+  body { @apply bg-white; }
+  .card { @apply border border-slate-400 shadow-none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

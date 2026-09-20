@@ -1,0 +1,738 @@
+[
+  {
+    "slug": "otp-scams",
+    "category": "otp",
+    "severity": "critical",
+    "title_en": "OTP Scams: The Six Digits That Empty Your Account",
+    "title_ta": "OTP மோசடி: உங்கள் கணக்கை காலி செய்யும் ஆறு இலக்கங்கள்",
+    "summary_en": "An OTP is a one-time key to your money. Anyone who asks for it is trying to take your money, no matter who they claim to be.",
+    "summary_ta": "OTP என்பது உங்கள் பணத்திற்கான ஒருமுறை சாவி. அதைக் கேட்கும் எவரும் உங்கள் பணத்தை எடுக்கவே முயல்கிறார்கள்.",
+    "body_en": "An OTP (One Time Password) is sent to your phone so that only you can approve a transaction. It is the last lock between a stranger and your savings. Fraudsters cannot break that lock, so instead they persuade you to open it for them.\n\nThe call usually sounds official. The caller knows your name, perhaps the last four digits of your card, and speaks with confidence. They say your card is being blocked, your KYC has expired, a wrong transaction must be reversed, or that you have won a refund. Then comes the single request that matters: 'Sir, just tell me the OTP you received.'\n\nThe moment you read out those digits, the money leaves. It is not reversible by the person on the phone, because that person was never from your bank.\n\nRemember one sentence and you are protected: no bank employee, no government officer, no delivery agent and no company will ever ask for your OTP. Not to verify you, not to cancel a transaction, not to give you a refund. Genuine bank messages even print this warning inside the SMS itself.\n\nIf someone asks, end the call. Then call the number printed on your own debit card or passbook to check.",
+    "body_ta": "OTP (ஒருமுறை கடவுச்சொல்) உங்கள் ஃபோனுக்கு அனுப்பப்படுகிறது. நீங்கள் மட்டுமே ஒரு பரிவர்த்தனையை அனுமதிக்க வேண்டும் என்பதற்காகத்தான் இது. இது அந்நியருக்கும் உங்கள் சேமிப்புக்கும் இடையே உள்ள கடைசி பூட்டு. மோசடியாளர்களால் அந்த பூட்டை உடைக்க முடியாது. அதனால் நீங்களே அதைத் திறந்து கொடுக்கும்படி வற்புறுத்துகிறார்கள்.\n\nஅழைப்பு அதிகாரப்பூர்வமாகத் தெரியும். அழைப்பவருக்கு உங்கள் பெயர் தெரியும், கார்டின் கடைசி நான்கு எண்கள் கூட தெரியலாம். நம்பிக்கையாகப் பேசுவார். உங்கள் கார்டு முடக்கப்படுகிறது, KYC காலாவதியாகிவிட்டது, தவறான பரிவர்த்தனையை ரத்து செய்ய வேண்டும், அல்லது உங்களுக்கு ரீஃபண்ட் வந்துள்ளது என்பார். பின் முக்கியமான ஒரே கோரிக்கை வரும்: 'சார், வந்த OTP-ஐ மட்டும் சொல்லுங்க.'\n\nநீங்கள் அந்த எண்களைச் சொன்ன நொடியில் பணம் போய்விடும். ஃபோனில் பேசியவரால் அதைத் திருப்ப முடியாது, ஏனென்றால் அவர் உங்கள் வங்கியிலிருந்து வரவே இல்லை.\n\nஒரே வாக்கியத்தை நினைவில் வையுங்கள்: எந்த வங்கி ஊழியரும், அரசு அதிகாரியும், டெலிவரி நபரும், நிறுவனமும் உங்கள் OTP-ஐ ஒருபோதும் கேட்க மாட்டார்கள்.\n\nயாராவது கேட்டால் அழைப்பைத் துண்டியுங்கள். பிறகு உங்கள் கார்டில் அச்சிடப்பட்ட எண்ணுக்கு நீங்களே அழையுங்கள்.",
+    "red_flags_en": [
+      "Anyone asking you to read out or forward an OTP",
+      "Caller claims the OTP is needed to 'cancel' or 'reverse' a transaction",
+      "Pressure to act within minutes before your account is blocked",
+      "Caller already knows some of your details, which makes them sound genuine",
+      "You are told not to disconnect the call while you check your messages",
+      "An OTP arrives when you did not start any transaction"
+    ],
+    "red_flags_ta": [
+      "OTP-ஐ சொல்லவோ அனுப்பவோ கேட்கும் எவரும்",
+      "பரிவர்த்தனையை 'ரத்து செய்ய' OTP தேவை என்று கூறுதல்",
+      "கணக்கு முடக்கப்படும் முன் சில நிமிடங்களில் செயல்பட வற்புறுத்துதல்",
+      "உங்கள் சில விவரங்கள் அவருக்கு ஏற்கனவே தெரிந்திருத்தல்",
+      "செய்தியைப் பார்க்கும்போது அழைப்பைத் துண்டிக்க வேண்டாம் எனக் கூறுதல்",
+      "நீங்கள் எந்த பரிவர்த்தனையும் செய்யாதபோது OTP வருதல்"
+    ],
+    "safe_actions_en": [
+      "Never share an OTP with anyone, for any reason",
+      "Disconnect the call and dial the number on your own card or passbook",
+      "Read the full SMS: it usually names the amount and the merchant",
+      "If an unexpected OTP arrives, treat it as a warning that someone has your card details",
+      "Register for SMS and email alerts on every account",
+      "Tell the elders in your family this one rule today"
+    ],
+    "safe_actions_ta": [
+      "எந்த காரணத்திற்கும் OTP-ஐ யாரிடமும் பகிர வேண்டாம்",
+      "அழைப்பைத் துண்டித்து, உங்கள் கார்டில் உள்ள எண்ணுக்கு நீங்களே அழையுங்கள்",
+      "முழு SMS-ஐயும் படியுங்கள்: அதில் தொகையும் வணிகரின் பெயரும் இருக்கும்",
+      "எதிர்பாராத OTP வந்தால், உங்கள் கார்டு விவரம் யாரிடமோ உள்ளது என்று அர்த்தம்",
+      "எல்லா கணக்குகளுக்கும் SMS மற்றும் மின்னஞ்சல் எச்சரிக்கையைப் பதிவு செய்யுங்கள்",
+      "இந்த ஒரு விதியை இன்றே உங்கள் வீட்டு பெரியவர்களிடம் சொல்லுங்கள்"
+    ],
+    "victim_steps_en": [
+      "Call 1930 immediately — reporting within the first hour gives the best chance of freezing the money",
+      "Report online at cybercrime.gov.in with the transaction details",
+      "Call your bank and block the card and net banking access",
+      "Do not delete the SMS or call log — they are evidence",
+      "Get a written acknowledgement of your complaint from the bank"
+    ],
+    "victim_steps_ta": [
+      "உடனே 1930-ஐ அழையுங்கள் — முதல் ஒரு மணி நேரத்தில் புகார் அளித்தால் பணத்தை நிறுத்த வாய்ப்பு அதிகம்",
+      "cybercrime.gov.in இணையதளத்தில் பரிவர்த்தனை விவரங்களுடன் புகார் அளியுங்கள்",
+      "வங்கியை அழைத்து கார்டையும் நெட் பேங்கிங்கையும் முடக்குங்கள்",
+      "SMS அல்லது அழைப்பு பதிவை அழிக்காதீர்கள் — அவை ஆதாரம்",
+      "வங்கியிடம் புகாருக்கான எழுத்துப்பூர்வ ஒப்புகையைப் பெறுங்கள்"
+    ],
+    "real_example_en": "A retired teacher in Coimbatore received a call saying her pension account needed re-verification. The caller knew her branch name. She shared the OTP to 'confirm her identity' and Rs 84,000 was withdrawn in three transactions within four minutes.",
+    "real_example_ta": "கோயம்புத்தூரில் ஓய்வுபெற்ற ஆசிரியை ஒருவருக்கு, அவரது ஓய்வூதியக் கணக்கை மீண்டும் சரிபார்க்க வேண்டும் என்று அழைப்பு வந்தது. அழைத்தவருக்கு கிளையின் பெயர் தெரிந்திருந்தது. 'அடையாளத்தை உறுதி செய்ய' OTP-ஐ பகிர்ந்தார். நான்கே நிமிடங்களில் மூன்று பரிவர்த்தனைகளில் ரூ.84,000 எடுக்கப்பட்டது.",
+    "helpline": "1930",
+    "tags": "otp,bank,call,phone,verification"
+  },
+  {
+    "slug": "kyc-scams",
+    "category": "kyc",
+    "severity": "critical",
+    "title_en": "KYC Update Scams: The Fake Deadline",
+    "title_ta": "KYC புதுப்பிப்பு மோசடி: போலி காலக்கெடு",
+    "summary_en": "A message says your KYC has expired and your account will be blocked today. The panic is the product. Banks never collect KYC through an SMS link.",
+    "summary_ta": "KYC காலாவதியானது, இன்று கணக்கு முடக்கப்படும் என்று செய்தி வரும். பீதியே அவர்களின் ஆயுதம். வங்கிகள் SMS இணைப்பு மூலம் KYC சேகரிக்காது.",
+    "body_en": "KYC means 'Know Your Customer' — the identity check every bank must do. It is a real requirement, and that is exactly why the scam works: the words sound familiar and official.\n\nThe fraud arrives as an SMS or WhatsApp message. It says your KYC is incomplete or expired, that your account or wallet will be frozen within 24 hours, and gives a link to 'update immediately'. The link opens a page that looks like your bank's website, sometimes with the correct logo and colours. It asks for your customer ID, password, card number, and finally an OTP.\n\nEverything you type goes straight to the fraudster. Some versions instead ask you to install an app to 'complete video KYC'. That app is remote-access software, and installing it hands over control of your phone.\n\nReal KYC updating happens in three places only: inside your bank's official app that you downloaded from the Play Store or App Store, on the bank's website that you typed yourself, or at the branch. A bank will never send you a link and a deadline in the same message.\n\nIf you are unsure whether your KYC is genuinely pending, walk into the branch and ask. It costs you an afternoon; the scam costs your savings.",
+    "body_ta": "KYC என்றால் 'உங்கள் வாடிக்கையாளரை அறிந்துகொள்' — ஒவ்வொரு வங்கியும் செய்ய வேண்டிய அடையாளச் சரிபார்ப்பு. இது உண்மையான தேவை. அதனால்தான் இந்த மோசடி வேலை செய்கிறது: வார்த்தைகள் பரிச்சயமாகவும் அதிகாரப்பூர்வமாகவும் ஒலிக்கின்றன.\n\nமோசடி SMS அல்லது WhatsApp செய்தியாக வரும். உங்கள் KYC முடிக்கப்படவில்லை அல்லது காலாவதியாகிவிட்டது, 24 மணி நேரத்தில் கணக்கு முடக்கப்படும் என்று கூறி 'உடனே புதுப்பிக்க' ஒரு இணைப்பு தரும். அந்த இணைப்பு உங்கள் வங்கி தளம் போலவே தோற்றமளிக்கும் பக்கத்தைத் திறக்கும். வாடிக்கையாளர் ID, கடவுச்சொல், கார்டு எண், இறுதியாக OTP கேட்கும்.\n\nநீங்கள் தட்டச்சு செய்யும் அனைத்தும் நேராக மோசடியாளரிடம் செல்லும். சில சமயம் 'வீடியோ KYC முடிக்க' ஒரு செயலியை நிறுவச் சொல்வார்கள். அது ரிமோட் ஆக்சஸ் செயலி. அதை நிறுவினால் உங்கள் ஃபோனின் கட்டுப்பாடு அவர்களிடம் போய்விடும்.\n\nஉண்மையான KYC மூன்று இடங்களில் மட்டுமே நடக்கும்: Play Store-லிருந்து நீங்கள் பதிவிறக்கிய அதிகாரப்பூர்வ வங்கி செயலி, நீங்களே தட்டச்சு செய்த வங்கி இணையதளம், அல்லது கிளை.\n\nசந்தேகம் இருந்தால் கிளைக்குச் சென்று கேளுங்கள். அது ஒரு மதியப் பொழுது; மோசடி உங்கள் சேமிப்பு முழுவதும்.",
+    "red_flags_en": [
+      "A deadline of 24 hours or 'today' to avoid account blocking",
+      "A link in the message instead of asking you to use the official app",
+      "The page asks for password, card number and OTP together",
+      "Sender is a personal mobile number, not the bank's official SMS ID",
+      "Spelling or spacing mistakes in the bank name or the web address",
+      "You are asked to install an app from outside the Play Store"
+    ],
+    "red_flags_ta": [
+      "கணக்கு முடக்கத்தைத் தவிர்க்க 24 மணி நேரம் அல்லது 'இன்றே' என்ற காலக்கெடு",
+      "அதிகாரப்பூர்வ செயலியைப் பயன்படுத்தச் சொல்லாமல் செய்தியில் இணைப்பு தருதல்",
+      "கடவுச்சொல், கார்டு எண், OTP ஆகியவற்றை ஒன்றாகக் கேட்டல்",
+      "வங்கியின் அதிகாரப்பூர்வ SMS ID அல்லாமல் தனிப்பட்ட மொபைல் எண்",
+      "வங்கி பெயரிலோ இணைய முகவரியிலோ எழுத்துப் பிழைகள்",
+      "Play Store-க்கு வெளியே உள்ள செயலியை நிறுவச் சொல்லுதல்"
+    ],
+    "safe_actions_en": [
+      "Never open a KYC link from an SMS or WhatsApp message",
+      "Open your bank's official app yourself and check for any real notice",
+      "Type the bank website address by hand instead of tapping a link",
+      "Visit the branch if you are unsure — they will confirm in a minute",
+      "Never install a screen-sharing app for any 'verification'",
+      "Check the sender: official bank SMS comes from a short sender ID, not a 10-digit number"
+    ],
+    "safe_actions_ta": [
+      "SMS அல்லது WhatsApp-ல் வரும் KYC இணைப்பை ஒருபோதும் திறக்க வேண்டாம்",
+      "உங்கள் வங்கியின் அதிகாரப்பூர்வ செயலியை நீங்களே திறந்து அறிவிப்பைப் பாருங்கள்",
+      "இணைப்பை அழுத்தாமல் வங்கி முகவரியை நீங்களே தட்டச்சு செய்யுங்கள்",
+      "சந்தேகம் இருந்தால் கிளைக்குச் செல்லுங்கள்",
+      "எந்த 'சரிபார்ப்புக்கும்' திரை பகிர்வு செயலியை நிறுவ வேண்டாம்",
+      "அனுப்புநரைப் பாருங்கள்: வங்கி SMS குறுகிய ID-யிலிருந்து வரும், 10 இலக்க எண்ணிலிருந்து அல்ல"
+    ],
+    "victim_steps_en": [
+      "Call 1930 and report at cybercrime.gov.in immediately",
+      "Change your net banking password from a different, trusted device",
+      "Ask the bank to block the card and freeze online transactions",
+      "Uninstall any app the caller made you install, then restart the phone",
+      "Keep the SMS and the link as evidence — do not delete them"
+    ],
+    "victim_steps_ta": [
+      "உடனே 1930-ஐ அழைத்து cybercrime.gov.in-ல் புகார் அளியுங்கள்",
+      "வேறு நம்பகமான சாதனத்திலிருந்து நெட் பேங்கிங் கடவுச்சொல்லை மாற்றுங்கள்",
+      "கார்டை முடக்கி ஆன்லைன் பரிவர்த்தனைகளை நிறுத்தச் சொல்லுங்கள்",
+      "அவர்கள் நிறுவச் சொன்ன செயலியை நீக்கிவிட்டு ஃபோனை மறுதொடக்கம் செய்யுங்கள்",
+      "SMS மற்றும் இணைப்பை ஆதாரமாக வைத்திருங்கள் — அழிக்காதீர்கள்"
+    ],
+    "real_example_en": "A shopkeeper in Madurai received an SMS that his wallet KYC would expire that night. He filled the form on the linked page during a busy hour without looking closely. Rs 31,500 was transferred out in two payments the same evening.",
+    "real_example_ta": "மதுரையில் ஒரு கடை உரிமையாளருக்கு, அன்றிரவு அவரது வாலட் KYC காலாவதியாகும் என்று SMS வந்தது. கடை பரபரப்பாக இருந்த நேரத்தில் கவனமாகப் பார்க்காமல் இணைப்பில் இருந்த படிவத்தை நிரப்பினார். அதே மாலை இரண்டு பரிவர்த்தனைகளில் ரூ.31,500 எடுக்கப்பட்டது.",
+    "helpline": "1930",
+    "tags": "kyc,bank,link,sms,deadline"
+  },
+  {
+    "slug": "job-scams",
+    "category": "job",
+    "severity": "high",
+    "title_en": "Job and Task Scams: When the Employer Asks You to Pay",
+    "title_ta": "வேலை மற்றும் டாஸ்க் மோசடி: முதலாளி உங்களிடம் பணம் கேட்கும்போது",
+    "summary_en": "A genuine employer pays you. If someone asks for a registration, training or security fee before the job, it is a scam.",
+    "summary_ta": "உண்மையான முதலாளி உங்களுக்குப் பணம் தருவார். வேலைக்கு முன் பதிவு, பயிற்சி அல்லது பாதுகாப்பு கட்டணம் கேட்டால் அது மோசடி.",
+    "body_en": "Job fraud targets exactly the people who can least afford it: students, fresh graduates, homemakers looking for part-time income, and workers who have just lost a job.\n\nIt begins with a message offering work from home, data entry, or 'earn Rs 2,000 a day by liking videos'. The offer feels easy and the reply is fast. Then a small fee appears — Rs 499 for registration, Rs 1,500 as a refundable security deposit, Rs 999 to 'confirm your interview slot'. Each amount is small enough that paying feels reasonable.\n\nThe task-fraud version is more dangerous. You are given a few simple tasks and actually paid a small amount, sometimes Rs 200 or Rs 500. That payment is the hook. Once you trust the system, you are invited to a 'prepaid task' group where larger deposits promise larger returns. You deposit Rs 10,000, then Rs 50,000 to 'unlock' your withdrawal, and the account closes.\n\nOne rule cuts through all of it: money flows from employer to employee, never the other way. No legitimate company in India charges a candidate a fee to be hired.\n\nCheck the company on its official website, look for a landline and a real office address, and be suspicious when all contact happens only on WhatsApp or Telegram.",
+    "body_ta": "வேலை மோசடி, பணத் தேவை அதிகம் உள்ளவர்களையே குறி வைக்கிறது: மாணவர்கள், புதிய பட்டதாரிகள், பகுதி நேர வருமானம் தேடும் இல்லத்தரசிகள், வேலை இழந்தவர்கள்.\n\nவீட்டிலிருந்து வேலை, டேட்டா என்ட்ரி, அல்லது 'வீடியோ லைக் செய்து தினமும் ரூ.2,000 சம்பாதிக்கலாம்' என்ற செய்தியுடன் இது தொடங்குகிறது. வாய்ப்பு எளிதாகத் தெரியும், பதில் விரைவாக வரும். பிறகு சிறு கட்டணம் வரும் — பதிவுக்கு ரூ.499, திரும்பத் தரக்கூடிய வைப்புத்தொகை ரூ.1,500, நேர்காணல் இடத்தை உறுதி செய்ய ரூ.999. ஒவ்வொரு தொகையும் சிறியதாக இருப்பதால் கட்டுவது நியாயமாகத் தோன்றும்.\n\nடாஸ்க் மோசடி இன்னும் ஆபத்தானது. சில எளிய வேலைகள் தரப்பட்டு உண்மையிலேயே ரூ.200 அல்லது ரூ.500 தரப்படும். அந்தப் பணமே தூண்டில். நீங்கள் நம்பத் தொடங்கியதும், பெரிய வைப்புத்தொகைக்கு பெரிய லாபம் என்று 'ப்ரீபெய்டு டாஸ்க்' குழுவில் சேர்ப்பார்கள். ரூ.10,000, பிறகு பணத்தை எடுக்க ரூ.50,000 என்று போட வைத்து, கணக்கு மூடப்படும்.\n\nஒரே விதி: பணம் முதலாளியிடமிருந்து ஊழியருக்குத்தான் வரும், மாறாக அல்ல. இந்தியாவில் எந்த நேர்மையான நிறுவனமும் வேலைக்கு சேர கட்டணம் வாங்காது.\n\nநிறுவனத்தை அதன் அதிகாரப்பூர்வ தளத்தில் சரிபாருங்கள். தொலைபேசி எண்ணும் உண்மையான முகவரியும் உள்ளதா எனப் பாருங்கள். எல்லா தொடர்பும் WhatsApp-ல் மட்டும் இருந்தால் சந்தேகப்படுங்கள்.",
+    "red_flags_en": [
+      "Any fee asked before you start work — registration, training, security or interview",
+      "Salary promised is far higher than normal for the work described",
+      "No interview, or an 'interview' only over chat",
+      "All communication is on WhatsApp or Telegram, never an official email",
+      "You are paid small amounts first, then asked to deposit a larger sum",
+      "The company name cannot be found on any official website"
+    ],
+    "red_flags_ta": [
+      "வேலை தொடங்கும் முன் எந்தக் கட்டணமும் — பதிவு, பயிற்சி, வைப்பு அல்லது நேர்காணல்",
+      "செய்யும் வேலைக்கு மீறிய அதிக சம்பளம் வாக்குறுதி",
+      "நேர்காணல் இல்லை, அல்லது சாட்டில் மட்டும் 'நேர்காணல்'",
+      "எல்லா தொடர்பும் WhatsApp அல்லது Telegram-ல் மட்டும்",
+      "முதலில் சிறு தொகை தந்து, பின் பெரிய தொகை கேட்டல்",
+      "நிறுவனத்தின் பெயர் எந்த அதிகாரப்பூர்வ தளத்திலும் இல்லை"
+    ],
+    "safe_actions_en": [
+      "Never pay any amount to get a job",
+      "Search the company name with the word 'fraud' before responding",
+      "Ask for the offer on official company letterhead and a landline number",
+      "Verify the office address exists — look it up on a map",
+      "Discuss the offer with one family member before paying anything",
+      "Use only recognised job portals and the college placement cell"
+    ],
+    "safe_actions_ta": [
+      "வேலை பெற எந்தத் தொகையும் செலுத்த வேண்டாம்",
+      "பதில் அளிக்கும் முன் நிறுவனப் பெயரை 'fraud' என்ற சொல்லுடன் தேடுங்கள்",
+      "அதிகாரப்பூர்வ லெட்டர்ஹெட்டில் ஆஃபர் லெட்டரும் தொலைபேசி எண்ணும் கேளுங்கள்",
+      "அலுவலக முகவரி உண்மையில் உள்ளதா என வரைபடத்தில் பாருங்கள்",
+      "பணம் கட்டும் முன் குடும்பத்தில் ஒருவரிடம் கலந்து பேசுங்கள்",
+      "அங்கீகரிக்கப்பட்ட வேலை தளங்களையும் கல்லூரி வேலைவாய்ப்பு பிரிவையும் மட்டும் பயன்படுத்துங்கள்"
+    ],
+    "victim_steps_en": [
+      "Stop all further payments immediately, even if told you will lose what you paid",
+      "Report on cybercrime.gov.in and call 1930",
+      "Save the chat, the UPI transaction IDs and the account numbers you paid to",
+      "Report the WhatsApp number inside the app and block it",
+      "Warn your classmates or colleagues — these groups target one network at a time"
+    ],
+    "victim_steps_ta": [
+      "கட்டிய பணம் போய்விடும் என்று சொன்னாலும் மேற்கொண்டு பணம் கட்டுவதை உடனே நிறுத்துங்கள்",
+      "cybercrime.gov.in-ல் புகார் அளித்து 1930-ஐ அழையுங்கள்",
+      "அரட்டை, UPI பரிவர்த்தனை ID, பணம் அனுப்பிய கணக்கு எண்களைச் சேமியுங்கள்",
+      "WhatsApp எண்ணை செயலிக்குள் புகாரளித்து தடை செய்யுங்கள்",
+      "உங்கள் வகுப்புத் தோழர்களை எச்சரியுங்கள் — இவர்கள் ஒரு குழுவையே குறி வைப்பார்கள்"
+    ],
+    "real_example_en": "A final-year student in Salem joined a 'hotel rating' task group. He was paid Rs 450 for the first five tasks. Encouraged, he deposited Rs 18,000 for a premium task set. The group was deleted the next morning.",
+    "real_example_ta": "சேலத்தில் இறுதியாண்டு மாணவர் ஒருவர் 'ஹோட்டல் ரேட்டிங்' டாஸ்க் குழுவில் சேர்ந்தார். முதல் ஐந்து டாஸ்குகளுக்கு ரூ.450 கிடைத்தது. நம்பிக்கையில் பிரீமியம் டாஸ்குக்கு ரூ.18,000 கட்டினார். மறுநாள் காலை அந்தக் குழு நீக்கப்பட்டிருந்தது.",
+    "helpline": "1930",
+    "tags": "job,work from home,task,fee,employment"
+  },
+  {
+    "slug": "investment-scams",
+    "category": "investment",
+    "severity": "high",
+    "title_en": "Investment Scams: Guaranteed Returns Do Not Exist",
+    "title_ta": "முதலீட்டு மோசடி: உறுதியான லாபம் என்பது கிடையாது",
+    "summary_en": "No genuine investment can promise a fixed profit. SEBI-registered advisers are legally barred from guaranteeing returns.",
+    "summary_ta": "எந்த உண்மையான முதலீடும் நிச்சயமான லாபத்தை உறுதியளிக்க முடியாது. பதிவுசெய்யப்பட்ட ஆலோசகர்கள் அப்படி வாக்குறுதி தர சட்டப்படி அனுமதி இல்லை.",
+    "body_en": "Investment fraud has moved to WhatsApp and Telegram. You are added to a group, often without asking, where members post screenshots of huge profits. A 'mentor' shares daily tips. The early advice seems to work, because the group controls what you see.\n\nYou are then directed to an app or website that shows your balance growing. The numbers on that screen are just text the fraudster controls — no trade ever happened. When you try to withdraw, a new obstacle appears: a tax, a conversion fee, a 'minimum balance'. Each payment is a fresh loss.\n\nThe warning sign is the promise itself. Markets move up and down; nobody can guarantee a return. Under Indian law, a SEBI-registered investment adviser is expressly forbidden from assuring any profit. So the sentence 'guaranteed 30% monthly' is not just unrealistic — it is proof the person is not registered.\n\nBefore investing anywhere, check the adviser's SEBI registration number on the SEBI website, and check whether the company is registered with the RBI or MCA. If a group pressures you to act before a 'limited window' closes, that urgency exists only to stop you checking.\n\nInvest only through your bank, a recognised broker, or an established mutual fund — never through a link sent by a stranger.",
+    "body_ta": "முதலீட்டு மோசடி இப்போது WhatsApp மற்றும் Telegram-க்கு மாறிவிட்டது. நீங்கள் கேட்காமலேயே ஒரு குழுவில் சேர்க்கப்படுவீர்கள். அங்கு உறுப்பினர்கள் பெரிய லாபத்தின் ஸ்கிரீன்ஷாட்களைப் பகிர்வார்கள். ஒரு 'மெண்டார்' தினமும் குறிப்புகள் தருவார். ஆரம்ப ஆலோசனைகள் வேலை செய்வது போலத் தெரியும், ஏனென்றால் நீங்கள் பார்ப்பதை அவர்களே கட்டுப்படுத்துகிறார்கள்.\n\nபிறகு ஒரு செயலி அல்லது இணையதளத்திற்கு அனுப்பப்படுவீர்கள். அங்கு உங்கள் இருப்பு வளர்வது போலத் தெரியும். அந்தத் திரையில் உள்ள எண்கள் மோசடியாளர் கட்டுப்படுத்தும் வெறும் எழுத்துக்கள் — எந்த வர்த்தகமும் நடக்கவில்லை. பணத்தை எடுக்க முயலும்போது புதிய தடை வரும்: வரி, மாற்றுக் கட்டணம், 'குறைந்தபட்ச இருப்பு'. ஒவ்வொரு கட்டணமும் புதிய இழப்பு.\n\nவாக்குறுதியே எச்சரிக்கை அடையாளம். சந்தை ஏறும் இறங்கும்; யாராலும் லாபத்தை உறுதியளிக்க முடியாது. இந்திய சட்டப்படி, SEBI-ல் பதிவுசெய்த ஆலோசகர் எந்த லாபத்தையும் உறுதியளிக்க தடை உள்ளது. எனவே 'மாதம் 30% உறுதி' என்பது நம்ப முடியாதது மட்டுமல்ல — அவர் பதிவு செய்யவில்லை என்பதற்கான ஆதாரம்.\n\nமுதலீடு செய்யும் முன் ஆலோசகரின் SEBI பதிவு எண்ணை SEBI தளத்தில் சரிபாருங்கள். 'குறைந்த கால அவகாசம்' என்று அவசரப்படுத்தினால், அந்த அவசரம் நீங்கள் சரிபார்க்காமல் இருக்கவே.\n\nஉங்கள் வங்கி, அங்கீகரிக்கப்பட்ட புரோக்கர், அல்லது நிறுவப்பட்ட மியூச்சுவல் ஃபண்ட் மூலம் மட்டுமே முதலீடு செய்யுங்கள்.",
+    "red_flags_en": [
+      "Guaranteed, assured or fixed returns of any percentage",
+      "Promise to double or triple your money in days or weeks",
+      "You were added to the group without asking",
+      "Profit screenshots posted by other 'members'",
+      "Withdrawal is blocked until you pay a tax or fee",
+      "The adviser has no verifiable SEBI registration number"
+    ],
+    "red_flags_ta": [
+      "எந்த சதவீதமாக இருந்தாலும் 'உறுதியான' லாபம்",
+      "நாட்களில் பணத்தை இரட்டிப்பாக்குவதாக வாக்குறுதி",
+      "நீங்கள் கேட்காமலேயே குழுவில் சேர்க்கப்பட்டது",
+      "மற்ற 'உறுப்பினர்கள்' பகிரும் லாப ஸ்கிரீன்ஷாட்கள்",
+      "வரி அல்லது கட்டணம் கட்டும் வரை பணம் எடுக்க முடியாமை",
+      "ஆலோசகருக்கு சரிபார்க்கக்கூடிய SEBI பதிவு எண் இல்லை"
+    ],
+    "safe_actions_en": [
+      "Treat the word 'guaranteed' as proof of fraud",
+      "Verify the SEBI registration number on the official SEBI website",
+      "Never install a trading app sent through a chat link",
+      "Start with your own bank's investment products if you are new",
+      "Leave any group that pressures you to act quickly",
+      "Discuss any investment above a month's income with family first"
+    ],
+    "safe_actions_ta": [
+      "'உறுதியான' என்ற சொல்லையே மோசடியின் அடையாளமாகக் கருதுங்கள்",
+      "SEBI பதிவு எண்ணை அதிகாரப்பூர்வ SEBI தளத்தில் சரிபாருங்கள்",
+      "அரட்டை இணைப்பில் வரும் டிரேடிங் செயலியை நிறுவ வேண்டாம்",
+      "புதியவர் என்றால் உங்கள் வங்கியின் முதலீட்டுத் திட்டங்களில் தொடங்குங்கள்",
+      "அவசரப்படுத்தும் எந்தக் குழுவிலிருந்தும் வெளியேறுங்கள்",
+      "ஒரு மாத வருமானத்துக்கு மேல் முதலீடு செய்வதை குடும்பத்துடன் பேசுங்கள்"
+    ],
+    "victim_steps_en": [
+      "Stop paying any further 'release fees' — they never end",
+      "Report on cybercrime.gov.in and call 1930 with all transaction records",
+      "Report unregistered entities on the RBI Sachet portal (sachet.rbi.org.in)",
+      "Take screenshots of the group, the app balance and the chat before you are removed",
+      "Do not borrow money to recover the loss — that is the next trap"
+    ],
+    "victim_steps_ta": [
+      "மேலும் 'விடுவிப்புக் கட்டணம்' கட்டுவதை நிறுத்துங்கள் — அவை முடிவதில்லை",
+      "அனைத்து பரிவர்த்தனை பதிவுகளுடன் cybercrime.gov.in-ல் புகார் அளித்து 1930-ஐ அழையுங்கள்",
+      "பதிவு செய்யாத நிறுவனங்களை sachet.rbi.org.in-ல் புகாரளியுங்கள்",
+      "நீக்கப்படும் முன் குழு, செயலி இருப்பு, அரட்டையின் ஸ்கிரீன்ஷாட் எடுங்கள்",
+      "இழப்பை ஈடுகட்ட கடன் வாங்காதீர்கள் — அதுவே அடுத்த பொறி"
+    ],
+    "real_example_en": "A young engineer in Tiruchirappalli was added to a stock tips group. After two small profitable tips, he invested Rs 2.4 lakh through an app the group shared. The app showed Rs 4.1 lakh, but every withdrawal request demanded a further 'tax payment'.",
+    "real_example_ta": "திருச்சியில் ஒரு இளம் பொறியாளர் பங்கு குறிப்புகள் குழுவில் சேர்க்கப்பட்டார். இரண்டு சிறு லாபங்களுக்குப் பிறகு, குழு பகிர்ந்த செயலி மூலம் ரூ.2.4 லட்சம் முதலீடு செய்தார். செயலியில் ரூ.4.1 லட்சம் காட்டியது, ஆனால் ஒவ்வொரு முறை பணம் எடுக்கும்போதும் மேலும் 'வரி' கேட்டார்கள்.",
+    "helpline": "1930",
+    "tags": "investment,trading,crypto,returns,sebi"
+  },
+  {
+    "slug": "banking-scams",
+    "category": "banking",
+    "severity": "critical",
+    "title_en": "Banking Frauds: Cards, PINs and Remote Access",
+    "title_ta": "வங்கி மோசடிகள்: கார்டு, பின் மற்றும் ரிமோட் ஆக்சஸ்",
+    "summary_en": "Your card number, CVV, PIN and net banking password are yours alone. Anyone collecting them — even a 'bank officer' — is committing fraud.",
+    "summary_ta": "உங்கள் கார்டு எண், CVV, PIN மற்றும் கடவுச்சொல் உங்களுடையது மட்டுமே. அவற்றைச் சேகரிக்கும் எவரும் — 'வங்கி அதிகாரி' என்றாலும் — மோசடி செய்கிறார்.",
+    "body_en": "Banking fraud takes several shapes, but they all end at the same place: getting you to reveal a secret or approve a payment.\n\nThe card details call asks for your card number, expiry and CVV to 'reactivate' a blocked card. Those three items alone are enough to shop online. The remote-access version asks you to install AnyDesk, TeamViewer or QuickSupport so an 'executive' can fix your account. Once installed, the fraudster watches your screen, sees you type your PIN, and operates your banking app as if it were their own phone.\n\nThe fake customer-care number is subtler. You search online for a bank or wallet helpline, and the first result is a number the fraudster has planted in an advertisement or a forum post. You call them, so you never doubt them — and that trust is the whole trick.\n\nThere is also the tampered payment: an unexpected UPI collect request, or a QR code sent for a 'refund'. Both of these move money out, not in.\n\nProtect yourself with three habits. Use only the number printed on your card or inside the official app. Never install a screen-sharing app on the phone that holds your banking. And treat any request to enter a PIN as a request to pay money, because that is exactly what it is.",
+    "body_ta": "வங்கி மோசடி பல வடிவங்களில் வருகிறது, ஆனால் எல்லாம் ஒரே இடத்தில் முடிகிறது: ஒரு ரகசியத்தை வெளியிடச் செய்வது அல்லது ஒரு பணத்தை அனுமதிக்க வைப்பது.\n\nகார்டு விவரக் கோரிக்கை, முடக்கப்பட்ட கார்டை 'மீண்டும் இயக்க' கார்டு எண், காலாவதி தேதி, CVV கேட்கும். இந்த மூன்றே ஆன்லைனில் பொருள் வாங்கப் போதும். ரிமோட் ஆக்சஸ் வகையில், 'அதிகாரி' உங்கள் கணக்கைச் சரி செய்ய AnyDesk அல்லது TeamViewer நிறுவச் சொல்வார். நிறுவியதும், மோசடியாளர் உங்கள் திரையைப் பார்ப்பார், நீங்கள் PIN தட்டச்சு செய்வதைப் பார்ப்பார், உங்கள் வங்கி செயலியை தன் ஃபோன் போலவே இயக்குவார்.\n\nபோலி கஸ்டமர் கேர் எண் இன்னும் நுட்பமானது. நீங்கள் இணையத்தில் வங்கி உதவி எண்ணைத் தேடுகிறீர்கள், முதல் முடிவாக மோசடியாளர் விளம்பரத்தில் வைத்த எண் வரும். நீங்களே அழைப்பதால் சந்தேகப்படுவதில்லை — அந்த நம்பிக்கையே தந்திரம்.\n\nஎதிர்பாராத UPI கோரிக்கை, அல்லது 'ரீஃபண்ட்'-க்காக அனுப்பப்படும் QR குறியீடு — இரண்டும் பணத்தை வெளியே அனுப்பும், உள்ளே அல்ல.\n\nமூன்று பழக்கங்கள் உங்களைக் காக்கும். உங்கள் கார்டில் அல்லது அதிகாரப்பூர்வ செயலியில் உள்ள எண்ணை மட்டும் பயன்படுத்துங்கள். வங்கி செயலி உள்ள ஃபோனில் திரை பகிர்வு செயலியை நிறுவாதீர்கள். PIN போடச் சொன்னால் அது பணம் அனுப்பும் கோரிக்கை என்றே கருதுங்கள்.",
+    "red_flags_en": [
+      "Any request for card number, CVV, PIN or net banking password",
+      "Being asked to install AnyDesk, TeamViewer, QuickSupport or any screen-sharing app",
+      "A helpline number found through a search engine or social media post",
+      "An unexpected payment request arriving in your UPI app",
+      "Caller insists you stay on the line while you operate your banking app",
+      "A QR code sent to you so that you can 'receive' money"
+    ],
+    "red_flags_ta": [
+      "கார்டு எண், CVV, PIN அல்லது கடவுச்சொல் கேட்கும் எந்தக் கோரிக்கையும்",
+      "AnyDesk, TeamViewer போன்ற திரை பகிர்வு செயலியை நிறுவச் சொல்லுதல்",
+      "தேடுபொறி அல்லது சமூக ஊடகத்தில் கிடைத்த உதவி எண்",
+      "UPI செயலியில் எதிர்பாராத பணக் கோரிக்கை",
+      "வங்கி செயலியைப் பயன்படுத்தும்போது அழைப்பில் இருக்கச் சொல்லுதல்",
+      "பணம் 'பெற' உங்களுக்கு அனுப்பப்படும் QR குறியீடு"
+    ],
+    "safe_actions_en": [
+      "Use only the customer care number printed on your card or passbook",
+      "Never install a screen-sharing app on the phone you bank with",
+      "Enable transaction limits and SMS alerts on every account",
+      "Cover the keypad when entering your PIN, including at ATMs",
+      "Check the ATM card slot for tampering before inserting your card",
+      "Set up a separate account with a small balance for online payments"
+    ],
+    "safe_actions_ta": [
+      "உங்கள் கார்டு அல்லது பாஸ்புக்கில் உள்ள எண்ணை மட்டும் பயன்படுத்துங்கள்",
+      "வங்கி செயலி உள்ள ஃபோனில் திரை பகிர்வு செயலியை நிறுவ வேண்டாம்",
+      "எல்லா கணக்குகளுக்கும் பரிவர்த்தனை வரம்பு மற்றும் SMS எச்சரிக்கை வையுங்கள்",
+      "ATM-ல் PIN போடும்போது கீபேடை மறைக்கவும்",
+      "கார்டைச் செருகும் முன் ATM துளையில் மாற்றம் உள்ளதா எனப் பாருங்கள்",
+      "ஆன்லைன் பணப் பரிமாற்றத்திற்கு குறைந்த இருப்புள்ள தனிக் கணக்கு வையுங்கள்"
+    ],
+    "victim_steps_en": [
+      "Call 1930 in the first hour — this is the single most effective step",
+      "Block the card immediately through the official app or branch",
+      "Uninstall any remote-access app and restart the phone",
+      "File the complaint at cybercrime.gov.in and keep the acknowledgement number",
+      "Under RBI rules, reporting an unauthorised transaction promptly limits your liability — report in writing"
+    ],
+    "victim_steps_ta": [
+      "முதல் ஒரு மணி நேரத்தில் 1930-ஐ அழையுங்கள் — இதுவே மிக முக்கியமான படி",
+      "அதிகாரப்பூர்வ செயலி அல்லது கிளை மூலம் கார்டை உடனே முடக்குங்கள்",
+      "ரிமோட் ஆக்சஸ் செயலியை நீக்கி ஃபோனை மறுதொடக்கம் செய்யுங்கள்",
+      "cybercrime.gov.in-ல் புகார் அளித்து ஒப்புகை எண்ணை வைத்திருங்கள்",
+      "RBI விதிப்படி, அனுமதியற்ற பரிவர்த்தனையை உடனே தெரிவித்தால் உங்கள் பொறுப்பு குறையும் — எழுத்தில் தெரிவியுங்கள்"
+    ],
+    "real_example_en": "A woman in Chennai searched online for a wallet helpline after a failed recharge. The number she found belonged to a fraudster, who asked her to install a support app to 'process the refund'. Rs 47,000 was transferred out while she watched the screen.",
+    "real_example_ta": "சென்னையில் ஒரு பெண், ரீசார்ஜ் தோல்வியடைந்த பிறகு இணையத்தில் வாலட் உதவி எண்ணைத் தேடினார். கிடைத்த எண் மோசடியாளருடையது. 'ரீஃபண்ட் செய்ய' ஒரு சப்போர்ட் செயலியை நிறுவச் சொன்னார். அவர் திரையைப் பார்த்துக் கொண்டிருக்கும்போதே ரூ.47,000 எடுக்கப்பட்டது.",
+    "helpline": "1930",
+    "tags": "bank,card,cvv,pin,anydesk,remote access"
+  },
+  {
+    "slug": "loan-scams",
+    "category": "loan",
+    "severity": "high",
+    "title_en": "Loan Scams and Illegal Loan Apps",
+    "title_ta": "கடன் மோசடி மற்றும் சட்டவிரோத கடன் செயலிகள்",
+    "summary_en": "A real lender deducts its fee from the loan. If you must pay before receiving money, it is a scam. Illegal loan apps then harass you for repayment.",
+    "summary_ta": "உண்மையான கடன் நிறுவனம் கட்டணத்தைக் கடனிலிருந்தே பிடித்துக்கொள்ளும். பணம் வருவதற்கு முன் நீங்கள் கட்ட வேண்டுமானால் அது மோசடி.",
+    "body_en": "Loan fraud has two stages, and the second is often worse than the first.\n\nStage one is the advance fee. You receive a message offering a pre-approved loan with no documents and no CIBIL check. To release it, you must pay a processing fee, an insurance charge or a GST amount. You pay, and either nothing arrives or a new fee appears. Legitimate lenders deduct charges from the disbursed amount; they do not collect money from you beforehand.\n\nStage two is the illegal loan app. A small loan of a few thousand rupees is actually disbursed, but the app first demands access to your contacts, photos and storage. Repayment terms are brutal — a short tenure with enormous hidden charges. When you fall behind, the operators send abusive messages to your entire contact list, call your employer, and sometimes morph your photographs. This is criminal extortion, not debt recovery.\n\nProtect yourself by borrowing only from an RBI-regulated bank or NBFC. Check the lender's name on the RBI website. Before installing any loan app, read the permissions: a lending app has no legitimate reason to read your contacts or gallery.\n\nIf you are already being harassed, the law is on your side. Do not pay more, preserve the messages, and report it.",
+    "body_ta": "கடன் மோசடி இரண்டு கட்டங்களில் நடக்கிறது. இரண்டாவது கட்டம் பெரும்பாலும் மோசமானது.\n\nமுதல் கட்டம் முன்பணக் கட்டணம். ஆவணம் இல்லாமல், CIBIL சரிபார்ப்பு இல்லாமல் முன்கூட்டியே அனுமதிக்கப்பட்ட கடன் என்று செய்தி வரும். அதை விடுவிக்க செயலாக்கக் கட்டணம், காப்பீட்டுக் கட்டணம் அல்லது GST கட்ட வேண்டும் என்பார்கள். கட்டியதும் ஒன்றும் வராது, அல்லது புதிய கட்டணம் வரும். உண்மையான நிறுவனங்கள் கட்டணத்தை வழங்கப்படும் தொகையிலிருந்தே பிடித்துக்கொள்ளும்.\n\nஇரண்டாம் கட்டம் சட்டவிரோத கடன் செயலி. சில ஆயிரம் ரூபாய் உண்மையிலேயே வழங்கப்படும், ஆனால் செயலி உங்கள் தொடர்புகள், புகைப்படங்கள், சேமிப்பகத்திற்கான அனுமதியைக் கேட்கும். திருப்பிச் செலுத்தும் நிபந்தனைகள் கொடூரமானவை — குறுகிய காலம், மறைமுகக் கட்டணங்கள். நீங்கள் தாமதித்தால், உங்கள் தொடர்பு பட்டியல் முழுவதற்கும் அவதூறான செய்திகள் அனுப்புவார்கள், உங்கள் முதலாளியை அழைப்பார்கள், சில சமயம் புகைப்படங்களை மாற்றி வெளியிடுவார்கள். இது குற்றமான மிரட்டல், கடன் வசூல் அல்ல.\n\nRBI கட்டுப்பாட்டில் உள்ள வங்கி அல்லது NBFC-யிடம் மட்டுமே கடன் வாங்குங்கள். கடன் செயலியை நிறுவும் முன் அனுமதிகளைப் படியுங்கள்: கடன் செயலிக்கு உங்கள் தொடர்புகளையோ கேலரியையோ படிக்க எந்த நியாயமான காரணமும் இல்லை.\n\nஏற்கனவே மிரட்டல் இருந்தால், சட்டம் உங்கள் பக்கம். மேலும் பணம் தராதீர்கள், செய்திகளைப் பாதுகாத்து புகார் அளியுங்கள்.",
+    "red_flags_en": [
+      "Any fee demanded before the loan amount reaches your account",
+      "'No documents', 'no CIBIL check' or 'any credit score accepted'",
+      "The app asks for access to contacts, photos, SMS or storage",
+      "The lender's name cannot be found on the RBI regulated list",
+      "Loan tenure of only 7 or 15 days with very high charges",
+      "Communication only through WhatsApp with no registered office"
+    ],
+    "red_flags_ta": [
+      "கடன் தொகை கணக்கில் வருவதற்கு முன் கேட்கப்படும் எந்தக் கட்டணமும்",
+      "'ஆவணம் தேவையில்லை', 'CIBIL சரிபார்ப்பு இல்லை'",
+      "செயலி தொடர்புகள், புகைப்படங்கள், SMS அனுமதி கேட்பது",
+      "RBI பட்டியலில் நிறுவனத்தின் பெயர் இல்லாதது",
+      "7 அல்லது 15 நாட்கள் மட்டுமே கால அவகாசம், மிக அதிக கட்டணம்",
+      "பதிவு அலுவலகம் இல்லாமல் WhatsApp-ல் மட்டும் தொடர்பு"
+    ],
+    "safe_actions_en": [
+      "Borrow only from an RBI-regulated bank or NBFC you can verify",
+      "Never pay any amount before the loan is credited",
+      "Read app permissions before installing; deny contacts and gallery access",
+      "Download apps only from the official Play Store or App Store",
+      "Compare the total repayment amount, not just the monthly instalment",
+      "Ask your bank about a small personal loan before trying an app"
+    ],
+    "safe_actions_ta": [
+      "சரிபார்க்கக்கூடிய RBI கட்டுப்பாட்டு வங்கி அல்லது NBFC-யிடம் மட்டும் கடன் வாங்குங்கள்",
+      "கடன் வரவு வைக்கப்படும் முன் எந்தத் தொகையும் கட்ட வேண்டாம்",
+      "நிறுவும் முன் அனுமதிகளைப் படியுங்கள்; தொடர்பு மற்றும் கேலரி அனுமதியை மறுக்கவும்",
+      "அதிகாரப்பூர்வ Play Store-லிருந்து மட்டும் செயலிகளைப் பதிவிறக்குங்கள்",
+      "மாதத் தவணை மட்டுமல்ல, மொத்தத் திருப்பிச் செலுத்தும் தொகையை ஒப்பிடுங்கள்",
+      "செயலியை முயற்சிக்கும் முன் உங்கள் வங்கியில் சிறு கடன் பற்றி கேளுங்கள்"
+    ],
+    "victim_steps_en": [
+      "Do not pay the harassers more money — it never stops the threats",
+      "Report the app on the RBI Sachet portal (sachet.rbi.org.in)",
+      "File a complaint at cybercrime.gov.in and call 1930",
+      "Save the abusive messages and call recordings as evidence",
+      "Inform your close contacts in advance so the threats lose their power",
+      "Harassment and morphed images are criminal offences — go to the police station"
+    ],
+    "victim_steps_ta": [
+      "மிரட்டுபவர்களுக்கு மேலும் பணம் தராதீர்கள் — மிரட்டல் நிற்காது",
+      "sachet.rbi.org.in-ல் அந்த செயலியைப் புகாரளியுங்கள்",
+      "cybercrime.gov.in-ல் புகார் அளித்து 1930-ஐ அழையுங்கள்",
+      "அவதூறான செய்திகளையும் அழைப்பு பதிவுகளையும் ஆதாரமாகச் சேமியுங்கள்",
+      "உங்கள் நெருங்கியவர்களிடம் முன்கூட்டியே சொல்லிவிடுங்கள் — மிரட்டலின் வலிமை குறையும்",
+      "மிரட்டலும் மாற்றப்பட்ட படங்களும் குற்றம் — காவல் நிலையம் செல்லுங்கள்"
+    ],
+    "real_example_en": "A daily wage worker in Erode borrowed Rs 5,000 through an app. After a 9-day tenure he owed Rs 8,200. When he could not pay, messages calling him a thief were sent to 180 contacts from his phonebook within one hour.",
+    "real_example_ta": "ஈரோட்டில் ஒரு தினக்கூலி தொழிலாளி செயலி மூலம் ரூ.5,000 கடன் வாங்கினார். 9 நாட்களில் ரூ.8,200 கட்ட வேண்டியிருந்தது. கட்ட முடியாதபோது, அவரது ஃபோனில் இருந்த 180 தொடர்புகளுக்கு ஒரே மணி நேரத்தில் அவரைத் திருடன் என்று செய்திகள் அனுப்பப்பட்டன.",
+    "helpline": "1930",
+    "tags": "loan,app,harassment,advance fee,nbfc"
+  },
+  {
+    "slug": "impersonation-scams",
+    "category": "impersonation",
+    "severity": "high",
+    "title_en": "Impersonation: Fake Officers, Fake Relatives",
+    "title_ta": "ஆள்மாறாட்டம்: போலி அதிகாரிகள், போலி உறவினர்கள்",
+    "summary_en": "Scammers borrow an identity you trust — a bank officer, an electricity official, a soldier, or your own relative — and then create an emergency.",
+    "summary_ta": "மோசடியாளர்கள் நீங்கள் நம்பும் ஒரு அடையாளத்தை — வங்கி அதிகாரி, மின்வாரிய ஊழியர், ராணுவ வீரர், அல்லது உங்கள் உறவினர் — கடன் வாங்கி அவசரநிலையை உருவாக்குகிறார்கள்.",
+    "body_en": "Impersonation works because you are not evaluating a stranger — you are reacting to someone you already trust.\n\nThe electricity scam is the most common version. An SMS says your power will be disconnected tonight because last month's bill was not updated, and gives a mobile number for the 'officer'. The real electricity board sends bills through official channels and never uses a personal WhatsApp number.\n\nThe relative scam arrives as: 'Mummy, my phone broke, this is my new number, send money urgently.' There is no photo, no voice call, and always a reason why they cannot talk. The fix is simple — call the person on their old, saved number before doing anything.\n\nThe officer scam uses authority. Someone claims to be an army officer being transferred who wants to buy your listed furniture, and insists on sending an advance. What follows is a QR code or a payment request that takes money from you instead. The uniform in the profile photo is stolen from the internet.\n\nThe common thread is that verification is always discouraged. The caller is in a hurry, cannot be called back, and wants you to act alone. Any genuine official or family member will wait two minutes while you check.",
+    "body_ta": "ஆள்மாறாட்டம் வேலை செய்கிறது, ஏனென்றால் நீங்கள் ஒரு அந்நியரை மதிப்பிடவில்லை — ஏற்கனவே நம்பும் ஒருவருக்கு எதிர்வினையாற்றுகிறீர்கள்.\n\nமின்சார மோசடி மிகவும் பொதுவானது. கடந்த மாத பில் புதுப்பிக்கப்படாததால் இன்றிரவு மின்சாரம் துண்டிக்கப்படும் என்று SMS வரும், 'அதிகாரி'-க்கு ஒரு மொபைல் எண் தரும். உண்மையான மின்வாரியம் அதிகாரப்பூர்வ வழியில்தான் பில் அனுப்பும், தனிப்பட்ட WhatsApp எண்ணைப் பயன்படுத்தாது.\n\nஉறவினர் மோசடி இப்படி வரும்: 'அம்மா, என் ஃபோன் உடைந்துவிட்டது, இது புதிய எண், அவசரமாக பணம் அனுப்புங்க.' புகைப்படம் இல்லை, குரல் அழைப்பு இல்லை, பேச முடியாததற்கு எப்போதும் ஒரு காரணம் இருக்கும். தீர்வு எளிது — எதுவும் செய்வதற்கு முன் அவரது பழைய எண்ணுக்கு அழையுங்கள்.\n\nஅதிகாரி மோசடி அதிகாரத்தைப் பயன்படுத்துகிறது. இடமாற்றம் ஆகும் ராணுவ அதிகாரி என்று கூறி உங்கள் பொருளை வாங்க முன்பணம் அனுப்புவதாகச் சொல்வார். பிறகு வரும் QR குறியீடு அல்லது கோரிக்கை உங்களிடமிருந்தே பணத்தை எடுக்கும். சுயவிவரப் படத்தில் உள்ள சீருடை இணையத்திலிருந்து திருடப்பட்டது.\n\nஒரே பொதுவான அம்சம்: சரிபார்ப்பு எப்போதும் தடுக்கப்படுகிறது. அழைப்பவர் அவசரத்தில் இருப்பார், திரும்ப அழைக்க முடியாது, நீங்கள் தனியாகச் செயல்பட வேண்டும் என்பார். உண்மையான அதிகாரியோ குடும்ப உறுப்பினரோ நீங்கள் சரிபார்க்க இரண்டு நிமிடம் காத்திருப்பார்கள்.",
+    "red_flags_en": [
+      "An official notice sent from a personal 10-digit mobile number",
+      "A relative messaging from a 'new number' who cannot make a voice call",
+      "Threat of disconnection, arrest or penalty within hours",
+      "An advance payment offered that requires you to scan or approve something",
+      "Caller discourages you from checking with anyone else",
+      "Profile photo shows a uniform but the person avoids a video call"
+    ],
+    "red_flags_ta": [
+      "தனிப்பட்ட 10 இலக்க மொபைல் எண்ணிலிருந்து வரும் அதிகாரப்பூர்வ அறிவிப்பு",
+      "'புதிய எண்' என்று செய்தி அனுப்பும், குரல் அழைப்பு செய்ய முடியாத உறவினர்",
+      "சில மணி நேரத்தில் துண்டிப்பு, கைது அல்லது அபராதம் என்ற மிரட்டல்",
+      "நீங்கள் ஸ்கேன் செய்ய வேண்டிய முன்பணம் வாக்குறுதி",
+      "வேறு யாரிடமும் கேட்க வேண்டாம் என்று தடுத்தல்",
+      "சீருடைப் படம் இருந்தும் வீடியோ அழைப்பைத் தவிர்த்தல்"
+    ],
+    "safe_actions_en": [
+      "Always call back on the number you already have saved",
+      "Verify an official notice through the official app, website or local office",
+      "Ask a question only the real person would know",
+      "Never send money based on a text message alone",
+      "Agree a family code word for genuine emergencies",
+      "Take two minutes to check — that is all it takes to break the scam"
+    ],
+    "safe_actions_ta": [
+      "ஏற்கனவே சேமித்த எண்ணுக்கு எப்போதும் திரும்ப அழையுங்கள்",
+      "அதிகாரப்பூர்வ அறிவிப்பை அதிகாரப்பூர்வ செயலி, தளம் அல்லது உள்ளூர் அலுவலகம் மூலம் சரிபாருங்கள்",
+      "உண்மையான நபருக்கு மட்டும் தெரிந்த கேள்வியைக் கேளுங்கள்",
+      "வெறும் செய்தியை நம்பி பணம் அனுப்ப வேண்டாம்",
+      "உண்மையான அவசரத்திற்கு குடும்பக் குறியீட்டுச் சொல் ஒன்றை வையுங்கள்",
+      "இரண்டு நிமிடம் சரிபாருங்கள் — மோசடியை முறியடிக்க அது போதும்"
+    ],
+    "victim_steps_en": [
+      "Call 1930 and report at cybercrime.gov.in with the number and screenshots",
+      "Report the fraudulent number on the Sanchar Saathi portal (sancharsaathi.gov.in)",
+      "Inform the real relative so they can warn others",
+      "Block and report the number inside WhatsApp",
+      "Tell your neighbours — impersonation scripts are reused across a locality"
+    ],
+    "victim_steps_ta": [
+      "1930-ஐ அழைத்து, எண் மற்றும் ஸ்கிரீன்ஷாட்களுடன் cybercrime.gov.in-ல் புகார் அளியுங்கள்",
+      "மோசடி எண்ணை sancharsaathi.gov.in-ல் புகாரளியுங்கள்",
+      "உண்மையான உறவினரிடம் தெரிவியுங்கள்",
+      "WhatsApp-ல் எண்ணைத் தடுத்துப் புகாரளியுங்கள்",
+      "அக்கம்பக்கத்தினரிடம் சொல்லுங்கள் — ஒரே பகுதியில் இதே தந்திரம் மீண்டும் பயன்படுத்தப்படும்"
+    ],
+    "real_example_en": "A retired man in Tirunelveli received an SMS at 8 PM saying his power would be cut at 9:30 PM. He called the number given, was asked to make a Rs 10 'verification payment' through a link, and lost Rs 63,000 from the account linked to that app.",
+    "real_example_ta": "திருநெல்வேலியில் ஓய்வுபெற்ற ஒருவருக்கு இரவு 8 மணிக்கு, 9:30 மணிக்கு மின்சாரம் துண்டிக்கப்படும் என்று SMS வந்தது. கொடுக்கப்பட்ட எண்ணை அழைத்தார். ஒரு இணைப்பு மூலம் ரூ.10 'சரிபார்ப்புக் கட்டணம்' செலுத்தச் சொன்னார்கள். அந்த செயலியுடன் இணைந்த கணக்கிலிருந்து ரூ.63,000 இழந்தார்.",
+    "helpline": "1930",
+    "tags": "impersonation,electricity,relative,army,officer"
+  },
+  {
+    "slug": "social-media-scams",
+    "category": "social_media",
+    "severity": "high",
+    "title_en": "Social Media Scams and Online Blackmail",
+    "title_ta": "சமூக ஊடக மோசடி மற்றும் ஆன்லைன் மிரட்டல்",
+    "summary_en": "Fake verification notices steal your password; fake friendships and video calls are used for blackmail. If you are threatened, you are the victim of a crime — report it.",
+    "summary_ta": "போலி சரிபார்ப்பு அறிவிப்புகள் கடவுச்சொல்லைத் திருடுகின்றன; போலி நட்பும் வீடியோ அழைப்பும் மிரட்டலுக்குப் பயன்படுகின்றன. மிரட்டப்பட்டால் நீங்கள் குற்றத்தின் பாதிக்கப்பட்டவர் — புகார் அளியுங்கள்.",
+    "body_en": "Social media fraud takes two main shapes.\n\nThe first is account theft. You receive a notice claiming your page violates copyright or that your account will be deleted unless you verify within 24 hours. The link opens a convincing login page. When you enter your password there, the attacker takes over your account and immediately messages your friends asking for money — and they trust the request because it comes from you.\n\nThe second is blackmail. A stranger, usually with an attractive profile photo, befriends you and moves quickly to a video call. The call is recorded or a pre-recorded video is played, and the recording is then used to demand money, with a threat to send it to your contacts.\n\nIf this happens to you, the most important thing to understand is that paying does not end it. Every payment proves you will pay again. The demands continue until you stop.\n\nThis is a crime committed against you, and the shame belongs to the offender, not to you. Police cyber cells handle these cases regularly and confidentially. Do not delete anything — the chat, the profile and the payment record are evidence. Report on 1930 and at cybercrime.gov.in, which has a dedicated category for these complaints.",
+    "body_ta": "சமூக ஊடக மோசடி இரண்டு முக்கிய வடிவங்களில் வருகிறது.\n\nமுதலாவது கணக்குத் திருட்டு. உங்கள் பக்கம் பதிப்புரிமையை மீறுகிறது, அல்லது 24 மணி நேரத்தில் சரிபார்க்கவில்லை என்றால் கணக்கு நீக்கப்படும் என்று அறிவிப்பு வரும். இணைப்பு நம்பத்தகுந்த உள்நுழைவுப் பக்கத்தைத் திறக்கும். அங்கு கடவுச்சொல்லை உள்ளிட்டால், தாக்குபவர் உங்கள் கணக்கை எடுத்துக்கொண்டு உங்கள் நண்பர்களிடம் பணம் கேட்பார் — உங்களிடமிருந்து வருவதால் அவர்கள் நம்புவார்கள்.\n\nஇரண்டாவது மிரட்டல். கவர்ச்சிகரமான சுயவிவரப் படத்துடன் ஒரு அந்நியர் நட்பு கொண்டு விரைவாக வீடியோ அழைப்புக்கு நகர்வார். அழைப்பு பதிவு செய்யப்படும் அல்லது முன்பே பதிவுசெய்த வீடியோ ஒளிபரப்பப்படும். பின் அந்தப் பதிவை வைத்து பணம் கேட்பார்கள், உங்கள் தொடர்புகளுக்கு அனுப்புவதாக மிரட்டுவார்கள்.\n\nஇது உங்களுக்கு நடந்தால், மிக முக்கியமாகப் புரிந்துகொள்ள வேண்டியது: பணம் கொடுப்பது இதை முடிக்காது. ஒவ்வொரு பணமும் நீங்கள் மீண்டும் தருவீர்கள் என்பதை நிரூபிக்கிறது.\n\nஇது உங்களுக்கு எதிராகச் செய்யப்பட்ட குற்றம். அவமானம் குற்றவாளிக்கே, உங்களுக்கு அல்ல. காவல்துறை சைபர் பிரிவு இதுபோன்ற வழக்குகளை ரகசியமாகக் கையாளுகிறது. எதையும் அழிக்காதீர்கள் — அரட்டை, சுயவிவரம், பணப் பதிவு எல்லாம் ஆதாரம். 1930-ல் புகார் அளியுங்கள்.",
+    "red_flags_en": [
+      "A message warning your account will be deleted unless you verify through a link",
+      "A login page reached by tapping a link rather than opening the app yourself",
+      "A new online friend who moves to a video call very quickly",
+      "A stranger whose profile has few photos and very recent activity",
+      "Any threat to share a video or photo unless you pay",
+      "A friend's account suddenly asking you for money"
+    ],
+    "red_flags_ta": [
+      "இணைப்பு மூலம் சரிபார்க்கவில்லை என்றால் கணக்கு நீக்கப்படும் என்ற செய்தி",
+      "செயலியை நீங்களே திறக்காமல் இணைப்பு மூலம் வரும் உள்நுழைவுப் பக்கம்",
+      "மிக விரைவாக வீடியோ அழைப்புக்கு நகரும் புதிய ஆன்லைன் நண்பர்",
+      "சில புகைப்படங்களும் மிகச் சமீபத்திய செயல்பாடும் உள்ள சுயவிவரம்",
+      "பணம் தரவில்லை என்றால் வீடியோவை பகிர்வதாக மிரட்டல்",
+      "நண்பரின் கணக்கு திடீரென பணம் கேட்பது"
+    ],
+    "safe_actions_en": [
+      "Turn on two-factor authentication on every social media account",
+      "Never log in through a link — open the app or type the address yourself",
+      "Keep your friend list and personal photos private",
+      "Do not accept video calls from people you have not met",
+      "If a friend asks for money online, call them on their known number",
+      "Talk to one trusted person immediately if you are being threatened"
+    ],
+    "safe_actions_ta": [
+      "எல்லா சமூக ஊடகக் கணக்குகளிலும் இரண்டடுக்கு பாதுகாப்பை இயக்குங்கள்",
+      "இணைப்பு மூலம் உள்நுழைய வேண்டாம் — செயலியை நீங்களே திறங்கள்",
+      "நண்பர் பட்டியலையும் தனிப்பட்ட படங்களையும் தனிப்பட்டதாக வையுங்கள்",
+      "சந்திக்காதவர்களிடமிருந்து வீடியோ அழைப்பை ஏற்க வேண்டாம்",
+      "நண்பர் ஆன்லைனில் பணம் கேட்டால் அவரது தெரிந்த எண்ணுக்கு அழையுங்கள்",
+      "மிரட்டப்பட்டால் உடனே நம்பகமான ஒருவரிடம் பேசுங்கள்"
+    ],
+    "victim_steps_en": [
+      "Do not pay. Paying invites more demands, it never ends them",
+      "Call 1930 and file a complaint at cybercrime.gov.in — there is a confidential category for this",
+      "Take screenshots of the profile, chat and payment demand before blocking",
+      "Report the account inside the platform and then block it",
+      "Tell a trusted family member or teacher — isolation is what the blackmailer depends on",
+      "If your account was stolen, reset the password and warn your contacts"
+    ],
+    "victim_steps_ta": [
+      "பணம் தராதீர்கள். பணம் தருவது மேலும் கோரிக்கைகளை வரவழைக்கும்",
+      "1930-ஐ அழைத்து cybercrime.gov.in-ல் புகார் அளியுங்கள் — இதற்கு ரகசியப் பிரிவு உள்ளது",
+      "தடை செய்யும் முன் சுயவிவரம், அரட்டை, பணக் கோரிக்கையின் ஸ்கிரீன்ஷாட் எடுங்கள்",
+      "தளத்திற்குள் கணக்கைப் புகாரளித்துப் பின் தடை செய்யுங்கள்",
+      "நம்பகமான குடும்ப உறுப்பினர் அல்லது ஆசிரியரிடம் சொல்லுங்கள் — தனிமையே மிரட்டுபவரின் பலம்",
+      "கணக்கு திருடப்பட்டால் கடவுச்சொல்லை மாற்றி தொடர்புகளை எச்சரியுங்கள்"
+    ],
+    "real_example_en": "A college student in Vellore accepted a video call from an unknown profile. The call lasted forty seconds and was recorded. He paid Rs 12,000 after the first threat, and the demands continued for eleven days until he reported it to the cyber cell.",
+    "real_example_ta": "வேலூரில் ஒரு கல்லூரி மாணவர் தெரியாத சுயவிவரத்திலிருந்து வந்த வீடியோ அழைப்பை ஏற்றார். நாற்பது வினாடிகள் நீடித்த அழைப்பு பதிவு செய்யப்பட்டது. முதல் மிரட்டலுக்குப் பிறகு ரூ.12,000 கொடுத்தார். சைபர் பிரிவில் புகார் அளிக்கும் வரை பதினொரு நாட்கள் கோரிக்கைகள் தொடர்ந்தன.",
+    "helpline": "1930",
+    "tags": "social media,facebook,instagram,blackmail,sextortion"
+  },
+  {
+    "slug": "digital-arrest-scams",
+    "category": "digital_arrest",
+    "severity": "critical",
+    "title_en": "Digital Arrest: A Crime That Does Not Exist in Law",
+    "title_ta": "டிஜிட்டல் கைது: சட்டத்தில் இல்லாத ஒரு விஷயம்",
+    "summary_en": "There is no such thing as a digital arrest in Indian law. No officer will ever interrogate you on a video call or tell you to stay on camera.",
+    "summary_ta": "இந்திய சட்டத்தில் 'டிஜிட்டல் கைது' என்பது கிடையாது. எந்த அதிகாரியும் வீடியோ அழைப்பில் விசாரணை செய்யமாட்டார்.",
+    "body_en": "This is currently one of the most damaging frauds in India, and it targets educated, cautious people — which is exactly why it deserves attention.\n\nIt begins with a call claiming your Aadhaar, SIM card or a parcel in your name has been linked to money laundering or drugs. The call is transferred to a 'senior officer' in what looks like a police station, complete with uniform, a backdrop and official-looking documents bearing your real details. You are told a case is registered, that it is confidential, and that you must not tell anyone — not even your family.\n\nYou are then kept on a video call for hours, sometimes days, and instructed not to disconnect. This isolation is the whole mechanism: while you are on that call you cannot ask anyone whether this is real. Finally you are asked to transfer your savings to a 'verification account' for clearance, with a promise of a refund after the enquiry.\n\nHere is the fact that ends it: Indian law has no provision for arrest, detention or interrogation over a video call. No police officer, CBI, ED, customs or court officer will ever demand money for clearance, and none will ever tell you to hide it from your family.\n\nIf you get such a call, disconnect. Then tell one family member out loud. That single act defeats the entire scheme.",
+    "body_ta": "இது தற்போது இந்தியாவில் மிகவும் பாதிப்பை ஏற்படுத்தும் மோசடிகளில் ஒன்று. படித்த, எச்சரிக்கையான நபர்களையே இது குறி வைக்கிறது.\n\nஉங்கள் ஆதார், சிம் கார்டு அல்லது உங்கள் பெயரில் உள்ள பார்சல் பணமோசடி அல்லது போதைப்பொருளுடன் தொடர்புடையது என்ற அழைப்புடன் தொடங்குகிறது. அழைப்பு காவல் நிலையம் போலத் தோன்றும் இடத்தில் உள்ள 'மூத்த அதிகாரி'-க்கு மாற்றப்படும் — சீருடை, பின்னணி, உங்கள் உண்மையான விவரங்கள் கொண்ட ஆவணங்களுடன். வழக்கு பதிவாகியுள்ளது, இது ரகசியம், யாரிடமும் — குடும்பத்திடம் கூட — சொல்லக்கூடாது என்பார்கள்.\n\nபின் உங்களை மணிக்கணக்கில், சில சமயம் நாட்கணக்கில், வீடியோ அழைப்பில் வைத்திருப்பார்கள். அழைப்பைத் துண்டிக்கக் கூடாது என்பார்கள். இந்தத் தனிமையே முழு தந்திரம்: அந்த அழைப்பில் இருக்கும்வரை இது உண்மையா என்று யாரிடமும் கேட்க முடியாது. இறுதியாக, விசாரணைக்குப் பின் திரும்பத் தருவதாகக் கூறி, உங்கள் சேமிப்பை 'சரிபார்ப்புக் கணக்கு'-க்கு அனுப்பச் சொல்வார்கள்.\n\nஇதை முடிக்கும் உண்மை: வீடியோ அழைப்பில் கைது, தடுப்புக்காவல் அல்லது விசாரணைக்கு இந்திய சட்டத்தில் எந்த வழிமுறையும் இல்லை. எந்த காவல், CBI, ED, சுங்க அதிகாரியும் கிளியரன்ஸுக்கு பணம் கேட்க மாட்டார்.\n\nஅப்படி அழைப்பு வந்தால் துண்டியுங்கள். பிறகு ஒரு குடும்ப உறுப்பினரிடம் சத்தமாகச் சொல்லுங்கள். அந்த ஒரு செயலே முழுத் திட்டத்தையும் முறியடிக்கும்.",
+    "red_flags_en": [
+      "The words 'digital arrest', 'virtual custody' or 'online interrogation'",
+      "Instruction not to disconnect the video call for any reason",
+      "Being told to keep the matter secret from your family",
+      "A uniformed person on a video call showing you documents with your details",
+      "A demand to transfer money to a 'verification' or 'clearance' account",
+      "Claims that your Aadhaar, SIM or parcel is linked to drugs or terror funding"
+    ],
+    "red_flags_ta": [
+      "'டிஜிட்டல் கைது', 'மெய்நிகர் காவல்' அல்லது 'ஆன்லைன் விசாரணை' போன்ற சொற்கள்",
+      "எந்தக் காரணத்திற்கும் வீடியோ அழைப்பைத் துண்டிக்கக் கூடாது என்ற உத்தரவு",
+      "விஷயத்தை குடும்பத்திடம் ரகசியமாக வைக்கச் சொல்லுதல்",
+      "வீடியோ அழைப்பில் சீருடையுடன் ஆவணங்களைக் காட்டும் நபர்",
+      "'சரிபார்ப்பு' கணக்குக்கு பணம் அனுப்பும்படி கோருதல்",
+      "உங்கள் ஆதார் அல்லது பார்சல் போதைப்பொருளுடன் தொடர்புடையது என்ற கூற்று"
+    ],
+    "safe_actions_en": [
+      "Disconnect immediately — you are never obliged to stay on a call",
+      "Tell one family member out loud, right away",
+      "Remember: no Indian agency conducts arrests or enquiries over video calls",
+      "Never transfer money for 'verification' or 'clearance'",
+      "Verify any claim by visiting the local police station in person",
+      "Explain this scam to the elders in your family this week"
+    ],
+    "safe_actions_ta": [
+      "உடனே அழைப்பைத் துண்டியுங்கள் — அழைப்பில் இருக்க நீங்கள் கடமைப்பட்டவர் அல்ல",
+      "உடனே ஒரு குடும்ப உறுப்பினரிடம் சத்தமாகச் சொல்லுங்கள்",
+      "நினைவில் வையுங்கள்: எந்த இந்திய நிறுவனமும் வீடியோ அழைப்பில் கைது செய்யாது",
+      "'சரிபார்ப்பு' அல்லது 'கிளியரன்ஸ்'-க்கு பணம் அனுப்ப வேண்டாம்",
+      "உள்ளூர் காவல் நிலையத்திற்கு நேரில் சென்று சரிபாருங்கள்",
+      "இந்த வாரம் உங்கள் வீட்டுப் பெரியவர்களிடம் இந்த மோசடியை விளக்குங்கள்"
+    ],
+    "victim_steps_en": [
+      "Disconnect the call and immediately tell a family member",
+      "Call 1930 within the first hour and report at cybercrime.gov.in",
+      "Go to the nearest police station in person with the details",
+      "Do not make any further transfer, whatever is threatened",
+      "Preserve the call logs, the bank transfer records and any documents they sent"
+    ],
+    "victim_steps_ta": [
+      "அழைப்பைத் துண்டித்து உடனே குடும்ப உறுப்பினரிடம் சொல்லுங்கள்",
+      "முதல் மணி நேரத்தில் 1930-ஐ அழைத்து cybercrime.gov.in-ல் புகார் அளியுங்கள்",
+      "விவரங்களுடன் அருகில் உள்ள காவல் நிலையத்திற்கு நேரில் செல்லுங்கள்",
+      "என்ன மிரட்டினாலும் மேற்கொண்டு பணம் அனுப்ப வேண்டாம்",
+      "அழைப்புப் பதிவுகள், வங்கிப் பரிவர்த்தனை, அனுப்பிய ஆவணங்களைப் பாதுகாக்கவும்"
+    ],
+    "real_example_en": "A retired bank manager in Chennai was kept on a video call for nine hours by men in police uniform who said a parcel in his name contained narcotics. He transferred Rs 18 lakh to a 'verification account'. He realised only when his daughter came home and asked what was happening.",
+    "real_example_ta": "சென்னையில் ஓய்வுபெற்ற வங்கி மேலாளர் ஒருவர், அவரது பெயரில் உள்ள பார்சலில் போதைப்பொருள் இருப்பதாகக் கூறிய காவல் சீருடை அணிந்தவர்களால் ஒன்பது மணி நேரம் வீடியோ அழைப்பில் வைக்கப்பட்டார். 'சரிபார்ப்புக் கணக்கு'-க்கு ரூ.18 லட்சம் அனுப்பினார். அவரது மகள் வீட்டுக்கு வந்து என்ன நடக்கிறது எனக் கேட்டபோதுதான் உணர்ந்தார்.",
+    "helpline": "1930",
+    "tags": "digital arrest,police,cbi,video call,fear"
+  },
+  {
+    "slug": "upi-qr-safety",
+    "category": "banking",
+    "severity": "critical",
+    "title_en": "UPI and QR Safety: You Never Scan to Receive Money",
+    "title_ta": "UPI மற்றும் QR பாதுகாப்பு: பணம் பெற ஒருபோதும் ஸ்கேன் செய்ய மாட்டீர்கள்",
+    "summary_en": "Scanning a QR code or entering your UPI PIN always sends money out of your account. Receiving money never needs a PIN.",
+    "summary_ta": "QR ஸ்கேன் செய்வதும் UPI PIN போடுவதும் எப்போதும் உங்கள் கணக்கிலிருந்து பணத்தை அனுப்பும். பணம் பெற PIN தேவையே இல்லை.",
+    "body_en": "This single rule prevents a large share of UPI fraud in India, and most people do not know it: you never need to scan a QR code, approve a request, or enter your UPI PIN in order to receive money. Money arriving in your account requires nothing from you at all.\n\nFraudsters exploit the confusion constantly. A buyer on a marketplace app says they will send an advance and shares a QR code for you to scan. A 'customer care agent' says your refund will come once you scan and enter your PIN. A stranger sends a collect request labelled 'cashback'. In every case, the moment you enter your PIN, money leaves your account.\n\nThe second common trap is the pre-filled amount. A QR at a shop or fuel pump may be replaced with one that already contains a large amount, hoping you will approve without reading. Always check the payee name and the amount on your screen before approving — your own app shows you both.\n\nThe third is the mandate or autopay trick, where you approve what looks like a one-time payment but is actually a recurring deduction.\n\nSo: before you tap, read the screen. If it says you are paying, you are paying — regardless of what the person on the phone claims.",
+    "body_ta": "இந்த ஒரு விதி இந்தியாவில் பெரும்பாலான UPI மோசடியைத் தடுக்கும், ஆனால் பலருக்கு இது தெரியாது: பணம் பெற QR ஸ்கேன் செய்யவோ, கோரிக்கையை ஏற்கவோ, UPI PIN போடவோ தேவையே இல்லை. உங்கள் கணக்கில் பணம் வர உங்களிடமிருந்து எதுவும் தேவையில்லை.\n\nமோசடியாளர்கள் இந்தக் குழப்பத்தையே பயன்படுத்துகிறார்கள். ஒரு வாங்குபவர் முன்பணம் அனுப்புவதாகச் சொல்லி ஸ்கேன் செய்ய QR அனுப்புவார். 'கஸ்டமர் கேர்' நபர், ஸ்கேன் செய்து PIN போட்டால் ரீஃபண்ட் வரும் என்பார். ஒரு அந்நியர் 'கேஷ்பேக்' என்ற பெயரில் கோரிக்கை அனுப்புவார். எல்லா சந்தர்ப்பத்திலும், PIN போட்ட நொடியில் பணம் உங்கள் கணக்கிலிருந்து போய்விடும்.\n\nஇரண்டாவது பொறி முன்பே நிரப்பப்பட்ட தொகை. கடை அல்லது பெட்ரோல் நிலையத்தில் உள்ள QR மாற்றப்பட்டு, பெரிய தொகை ஏற்கனவே இருக்கும். நீங்கள் படிக்காமல் அனுமதிப்பீர்கள் என்ற நம்பிக்கையில். அனுமதிக்கும் முன் பெறுநர் பெயரையும் தொகையையும் உங்கள் திரையில் சரிபாருங்கள்.\n\nமூன்றாவது ஆட்டோபே தந்திரம் — ஒருமுறை பணம் போலத் தோன்றி உண்மையில் தொடர்ந்து பிடிக்கப்படும்.\n\nஎனவே: அழுத்தும் முன் திரையைப் படியுங்கள். 'நீங்கள் செலுத்துகிறீர்கள்' என்று இருந்தால், நீங்கள் செலுத்துகிறீர்கள் — ஃபோனில் பேசுபவர் என்ன சொன்னாலும்.",
+    "red_flags_en": [
+      "Being asked to scan a QR code in order to receive money or a refund",
+      "Being asked to enter your UPI PIN to 'confirm' an incoming payment",
+      "A collect or payment request from someone you do not know",
+      "A QR code with an amount already filled in",
+      "A buyer who insists on sending an advance before seeing the item",
+      "Any request labelled cashback, reward or refund that needs your PIN"
+    ],
+    "red_flags_ta": [
+      "பணம் அல்லது ரீஃபண்ட் பெற QR ஸ்கேன் செய்யச் சொல்லுதல்",
+      "வரும் பணத்தை 'உறுதி செய்ய' UPI PIN போடச் சொல்லுதல்",
+      "தெரியாத நபரிடமிருந்து வரும் பணக் கோரிக்கை",
+      "தொகை ஏற்கனவே நிரப்பப்பட்ட QR குறியீடு",
+      "பொருளைப் பார்க்காமல் முன்பணம் அனுப்ப வலியுறுத்தும் வாங்குபவர்",
+      "PIN தேவைப்படும் கேஷ்பேக் அல்லது ரீஃபண்ட் கோரிக்கை"
+    ],
+    "safe_actions_en": [
+      "Remember the rule: PIN is only ever for sending money, never for receiving",
+      "Read the payee name and amount on your own screen before approving",
+      "Reject payment requests from unknown UPI IDs",
+      "Set a daily UPI transaction limit in your app",
+      "At a shop, confirm the merchant name that appears after scanning",
+      "Keep a low balance in the account linked to UPI"
+    ],
+    "safe_actions_ta": [
+      "விதியை நினைவில் வையுங்கள்: PIN பணம் அனுப்பவே, பெறுவதற்கு அல்ல",
+      "அனுமதிக்கும் முன் பெறுநர் பெயரையும் தொகையையும் படியுங்கள்",
+      "தெரியாத UPI ID-யிலிருந்து வரும் கோரிக்கைகளை நிராகரியுங்கள்",
+      "உங்கள் செயலியில் தினசரி UPI வரம்பை அமைக்கவும்",
+      "கடையில் ஸ்கேன் செய்த பிறகு வணிகர் பெயரை உறுதி செய்யுங்கள்",
+      "UPI உடன் இணைந்த கணக்கில் குறைந்த இருப்பு வையுங்கள்"
+    ],
+    "victim_steps_en": [
+      "Call 1930 immediately and report at cybercrime.gov.in",
+      "Raise a dispute inside your UPI app right away",
+      "Inform your bank in writing and obtain a complaint reference number",
+      "Take a screenshot of the transaction and the requester's UPI ID",
+      "Report the UPI ID inside the payment app"
+    ],
+    "victim_steps_ta": [
+      "உடனே 1930-ஐ அழைத்து cybercrime.gov.in-ல் புகார் அளியுங்கள்",
+      "உங்கள் UPI செயலியில் உடனே தகராறு பதிவு செய்யுங்கள்",
+      "வங்கிக்கு எழுத்தில் தெரிவித்து புகார் எண்ணைப் பெறுங்கள்",
+      "பரிவர்த்தனை மற்றும் கோரிக்கையாளரின் UPI ID ஸ்கிரீன்ஷாட் எடுங்கள்",
+      "பணம் செலுத்தும் செயலியில் அந்த UPI ID-ஐ புகாரளியுங்கள்"
+    ],
+    "real_example_en": "A tailor in Karur listed a sewing machine for sale online. The 'buyer' said he would send Rs 8,000 as advance and shared a QR code to scan for the credit. After entering the PIN twice, Rs 16,000 had left the tailor's account.",
+    "real_example_ta": "கரூரில் ஒரு தையல்காரர் தையல் இயந்திரத்தை ஆன்லைனில் விற்பனைக்கு வைத்தார். 'வாங்குபவர்' ரூ.8,000 முன்பணம் அனுப்புவதாகச் சொல்லி ஸ்கேன் செய்ய QR அனுப்பினார். இரண்டு முறை PIN போட்ட பிறகு, தையல்காரரின் கணக்கிலிருந்து ரூ.16,000 போய்விட்டது.",
+    "helpline": "1930",
+    "tags": "upi,qr,pin,payment,refund"
+  },
+  {
+    "slug": "courier-parcel-scams",
+    "category": "courier_parcel",
+    "severity": "high",
+    "title_en": "Courier and Customs Parcel Scams",
+    "title_ta": "கூரியர் மற்றும் சுங்க பார்சல் மோசடி",
+    "summary_en": "A call says a parcel in your name contains illegal items and customs has seized it. Customs never phones individuals to demand an instant transfer.",
+    "summary_ta": "உங்கள் பெயரில் உள்ள பார்சலில் சட்டவிரோதப் பொருட்கள் உள்ளன, சுங்கம் பறிமுதல் செய்துள்ளது என்று அழைப்பு வரும். சுங்கத்துறை தனிநபரை அழைத்து உடனே பணம் கேட்காது.",
+    "body_en": "The courier scam is a scripted performance. You receive a call that appears to come from a well-known courier company. An automated voice says a parcel in your name has a problem; press a key to speak to an executive.\n\nThe executive tells you the parcel was intercepted and contains narcotics, expired passports or illegal goods. Your Aadhaar number, they say, was used to book it. The call is then transferred to someone claiming to be from the police or narcotics bureau, and from this point it usually becomes a digital arrest attempt.\n\nA milder version simply asks for a small redelivery fee through a link — but the link captures your card details, and the small amount is used to test whether the card works.\n\nTwo facts protect you. First, no customs or courier company resolves a legal matter by phone and instant payment; a genuine issue produces a written notice and a physical office you can visit. Second, you do not have to prove anything about a parcel you never sent. The burden is not on you, and a real investigation would not begin with a phone call demanding money.\n\nHang up, and verify directly with the courier company using the number on their official website.",
+    "body_ta": "கூரியர் மோசடி ஒரு திட்டமிட்ட நாடகம். பிரபல கூரியர் நிறுவனத்திலிருந்து வருவது போல அழைப்பு வரும். உங்கள் பெயரில் உள்ள பார்சலில் சிக்கல் உள்ளது, அதிகாரியுடன் பேச ஒரு பொத்தானை அழுத்துங்கள் என்று தானியங்கி குரல் சொல்லும்.\n\nபார்சல் தடுத்து நிறுத்தப்பட்டது, அதில் போதைப்பொருள் அல்லது சட்டவிரோதப் பொருட்கள் உள்ளன என்பார். உங்கள் ஆதார் எண் பயன்படுத்தப்பட்டதாகச் சொல்வார். பின் அழைப்பு காவல்துறை அல்லது போதைப்பொருள் பிரிவு என்று கூறுபவருக்கு மாற்றப்படும். இங்கிருந்து இது டிஜிட்டல் கைது முயற்சியாக மாறும்.\n\nஇலகுவான வகையில், ஒரு இணைப்பு மூலம் சிறு மறுவிநியோகக் கட்டணம் கேட்பார்கள் — ஆனால் அந்த இணைப்பு உங்கள் கார்டு விவரங்களைப் பிடிக்கும்.\n\nஇரண்டு உண்மைகள் உங்களைக் காக்கும். முதலாவது, எந்த சுங்கத்துறையோ கூரியர் நிறுவனமோ சட்டப் பிரச்சினையை ஃபோனிலும் உடனடிப் பணத்திலும் தீர்க்காது; உண்மையான பிரச்சினைக்கு எழுத்துப்பூர்வ அறிவிப்பும் நீங்கள் செல்லக்கூடிய அலுவலகமும் இருக்கும். இரண்டாவது, நீங்கள் அனுப்பாத பார்சல் பற்றி நீங்கள் எதையும் நிரூபிக்க வேண்டியதில்லை.\n\nஅழைப்பைத் துண்டித்து, கூரியர் நிறுவனத்தின் அதிகாரப்பூர்வ தளத்தில் உள்ள எண்ணைக் கொண்டு நேரடியாகச் சரிபாருங்கள்.",
+    "red_flags_en": [
+      "An automated call about a parcel you never sent or ordered",
+      "Claim that your Aadhaar was used to book an illegal shipment",
+      "The call being transferred to 'police' or 'narcotics' officers",
+      "Demand for an immediate transfer to settle a customs matter",
+      "Instruction to stay on the line and not tell anyone",
+      "A small 'redelivery fee' payable only through a link"
+    ],
+    "red_flags_ta": [
+      "நீங்கள் அனுப்பாத பார்சல் பற்றி தானியங்கி அழைப்பு",
+      "உங்கள் ஆதார் சட்டவிரோத பார்சலுக்குப் பயன்படுத்தப்பட்டது என்ற கூற்று",
+      "அழைப்பு 'காவல்துறை' அதிகாரிகளுக்கு மாற்றப்படுதல்",
+      "சுங்கப் பிரச்சினையைத் தீர்க்க உடனடிப் பணம் கோருதல்",
+      "அழைப்பில் இருக்கவும் யாரிடமும் சொல்ல வேண்டாம் என்ற உத்தரவு",
+      "இணைப்பு மூலம் மட்டும் செலுத்தக்கூடிய சிறு 'மறுவிநியோகக் கட்டணம்'"
+    ],
+    "safe_actions_en": [
+      "Hang up on any automated parcel call",
+      "Verify using the courier company's official website number",
+      "Never pay a customs or clearance amount over the phone",
+      "Remember that a real legal notice arrives in writing, not by call",
+      "Tell a family member immediately if the call mentions police or arrest",
+      "Track any genuine parcel only inside the official courier app"
+    ],
+    "safe_actions_ta": [
+      "தானியங்கி பார்சல் அழைப்பை உடனே துண்டியுங்கள்",
+      "கூரியர் நிறுவனத்தின் அதிகாரப்பூர்வ தள எண்ணைக் கொண்டு சரிபாருங்கள்",
+      "ஃபோனில் சுங்கம் அல்லது கிளியரன்ஸ் தொகை செலுத்த வேண்டாம்",
+      "உண்மையான சட்ட அறிவிப்பு எழுத்தில் வரும், அழைப்பில் அல்ல",
+      "அழைப்பில் காவல்துறை அல்லது கைது பற்றி பேசினால் உடனே குடும்பத்தில் சொல்லுங்கள்",
+      "உண்மையான பார்சலை அதிகாரப்பூர்வ செயலியில் மட்டும் கண்காணியுங்கள்"
+    ],
+    "victim_steps_en": [
+      "Disconnect and tell a family member immediately",
+      "Call 1930 and report at cybercrime.gov.in",
+      "If you paid by card, block the card and dispute the transaction",
+      "Preserve the call record and any documents sent to you",
+      "Visit the police station in person if arrest or a case was mentioned"
+    ],
+    "victim_steps_ta": [
+      "அழைப்பைத் துண்டித்து உடனே குடும்பத்தில் சொல்லுங்கள்",
+      "1930-ஐ அழைத்து cybercrime.gov.in-ல் புகார் அளியுங்கள்",
+      "கார்டில் செலுத்தியிருந்தால் கார்டை முடக்கி தகராறு பதிவு செய்யுங்கள்",
+      "அழைப்புப் பதிவையும் அனுப்பப்பட்ட ஆவணங்களையும் பாதுகாக்கவும்",
+      "கைது அல்லது வழக்கு பற்றி பேசியிருந்தால் காவல் நிலையம் நேரில் செல்லுங்கள்"
+    ],
+    "real_example_en": "A homemaker in Thanjavur received a recorded call about a parcel to Taiwan booked with her Aadhaar. The call was transferred to a 'narcotics officer' who kept her on the line for two hours. She transferred Rs 2.7 lakh before her son returned home.",
+    "real_example_ta": "தஞ்சாவூரில் ஒரு இல்லத்தரசிக்கு, அவரது ஆதார் மூலம் தைவானுக்கு பார்சல் பதிவு செய்யப்பட்டதாக பதிவுசெய்யப்பட்ட அழைப்பு வந்தது. அழைப்பு 'போதைப்பொருள் அதிகாரி'-க்கு மாற்றப்பட்டு இரண்டு மணி நேரம் பேசினார்கள். அவரது மகன் வீடு திரும்பும் முன் ரூ.2.7 லட்சம் அனுப்பிவிட்டார்.",
+    "helpline": "1930",
+    "tags": "courier,parcel,customs,fedex,narcotics"
+  },
+  {
+    "slug": "lottery-prize-scams",
+    "category": "lottery",
+    "severity": "medium",
+    "title_en": "Lottery and Prize Scams",
+    "title_ta": "லாட்டரி மற்றும் பரிசு மோசடி",
+    "summary_en": "You cannot win a competition you never entered. The prize is imaginary; the tax, GST or processing fee they ask for is the actual scam.",
+    "summary_ta": "நீங்கள் பங்கேற்காத போட்டியில் வெற்றி பெற முடியாது. பரிசு கற்பனையானது; அவர்கள் கேட்கும் வரி அல்லது கட்டணமே உண்மையான மோசடி.",
+    "body_en": "The lottery scam is one of the oldest frauds still running, and it survives because it costs the fraudster nothing to send a thousand messages.\n\nThe message congratulates you on winning a large amount in a lucky draw run by a famous brand or television programme. To claim it, you must first pay a tax, GST, processing fee or courier charge. Sometimes you are asked for your bank details 'so the prize can be credited'.\n\nThere are two separate harms. If you pay the fee, that money is gone and further fees will follow. If you give your bank details and a copy of your ID, those are used to open accounts in your name or to attempt direct withdrawals.\n\nThe logic that protects you is simple. A genuine prize deducts tax at source — the organiser pays the government and gives you the remainder. No legitimate lottery in India asks a winner to transfer money first. And you cannot be the winner of a draw you never entered.\n\nBe especially careful when the message uses a well-known name such as a television quiz show, a soft drink brand or a phone manufacturer. The familiar name is borrowed precisely to make the impossible seem plausible.",
+    "body_ta": "லாட்டரி மோசடி இன்னும் நடக்கும் பழமையான மோசடிகளில் ஒன்று. ஆயிரம் செய்திகள் அனுப்ப மோசடியாளருக்கு எந்தச் செலவும் இல்லாததால் இது தொடர்கிறது.\n\nபிரபல நிறுவனம் அல்லது தொலைக்காட்சி நிகழ்ச்சி நடத்திய லக்கி டிராவில் பெரும் தொகை வென்றதாக செய்தி வாழ்த்தும். அதைப் பெற முதலில் வரி, GST, செயலாக்கக் கட்டணம் அல்லது கூரியர் கட்டணம் செலுத்த வேண்டும் என்பார்கள். சில சமயம் 'பரிசைச் செலுத்த' வங்கி விவரங்கள் கேட்பார்கள்.\n\nஇரண்டு தனித்தனி தீங்குகள் உள்ளன. கட்டணம் கட்டினால் அந்தப் பணம் போய்விடும், மேலும் கட்டணங்கள் வரும். வங்கி விவரங்களையும் அடையாள நகலையும் கொடுத்தால், அவை உங்கள் பெயரில் கணக்கு திறக்கவோ நேரடியாகப் பணம் எடுக்கவோ பயன்படும்.\n\nஉங்களைக் காக்கும் தர்க்கம் எளிது. உண்மையான பரிசில் வரி மூலத்திலேயே பிடிக்கப்படும் — நடத்துபவர் அரசுக்குச் செலுத்தி மீதியை உங்களுக்குத் தருவார். இந்தியாவில் எந்த நேர்மையான லாட்டரியும் வென்றவரிடம் முதலில் பணம் கேட்காது. நீங்கள் பங்கேற்காத டிராவில் வெற்றியாளராக முடியாது.\n\nதொலைக்காட்சி நிகழ்ச்சி அல்லது பிரபல நிறுவனப் பெயர் பயன்படுத்தப்பட்டால் இன்னும் கவனமாக இருங்கள். சாத்தியமற்றதை சாத்தியமாகக் காட்டவே அந்தப் பெயர் கடன் வாங்கப்படுகிறது.",
+    "red_flags_en": [
+      "You won a competition you never entered",
+      "A fee, tax or GST must be paid before the prize is released",
+      "Bank details or an ID copy requested to 'credit the prize'",
+      "A famous brand or TV show name used without any official website",
+      "Contact only through WhatsApp or a personal mobile number",
+      "Urgency: the prize expires today if you do not respond"
+    ],
+    "red_flags_ta": [
+      "நீங்கள் பங்கேற்காத போட்டியில் வெற்றி",
+      "பரிசு விடுவிக்கப்படும் முன் கட்டணம் அல்லது வரி செலுத்த வேண்டும்",
+      "'பரிசைச் செலுத்த' வங்கி விவரம் அல்லது அடையாள நகல் கேட்டல்",
+      "அதிகாரப்பூர்வ தளம் இல்லாமல் பிரபல பெயர் பயன்படுத்தப்படுதல்",
+      "WhatsApp அல்லது தனிப்பட்ட எண் மூலம் மட்டும் தொடர்பு",
+      "அவசரம்: இன்று பதில் அளிக்காவிட்டால் பரிசு காலாவதியாகும்"
+    ],
+    "safe_actions_en": [
+      "Delete the message — no reply is needed",
+      "Never pay any amount to receive a prize",
+      "Never share bank details or ID copies with an unknown contact",
+      "Check the brand's official website; real campaigns are announced there",
+      "Tell elderly family members about this pattern — they are targeted most",
+      "Report the number and block it"
+    ],
+    "safe_actions_ta": [
+      "செய்தியை நீக்கிவிடுங்கள் — பதில் தேவையில்லை",
+      "பரிசு பெற எந்தத் தொகையும் செலுத்த வேண்டாம்",
+      "தெரியாதவரிடம் வங்கி விவரங்களையோ அடையாள நகலையோ பகிர வேண்டாம்",
+      "நிறுவனத்தின் அதிகாரப்பூர்வ தளத்தைப் பாருங்கள்",
+      "வீட்டுப் பெரியவர்களிடம் இதைப் பற்றிச் சொல்லுங்கள் — அவர்களே அதிகம் குறி வைக்கப்படுகிறார்கள்",
+      "எண்ணைப் புகாரளித்துத் தடை செய்யுங்கள்"
+    ],
+    "victim_steps_en": [
+      "Stop paying any further 'release' charges",
+      "Report at cybercrime.gov.in and call 1930",
+      "If you shared ID documents, monitor your credit report for new accounts",
+      "Keep the messages and payment receipts as evidence",
+      "Warn others in your community — the same list is contacted repeatedly"
+    ],
+    "victim_steps_ta": [
+      "மேலும் 'விடுவிப்புக்' கட்டணங்கள் செலுத்துவதை நிறுத்துங்கள்",
+      "cybercrime.gov.in-ல் புகார் அளித்து 1930-ஐ அழையுங்கள்",
+      "அடையாள ஆவணங்களைப் பகிர்ந்திருந்தால் உங்கள் கிரெடிட் அறிக்கையைக் கண்காணியுங்கள்",
+      "செய்திகளையும் ரசீதுகளையும் ஆதாரமாக வைத்திருங்கள்",
+      "உங்கள் சமூகத்தில் உள்ளவர்களை எச்சரியுங்கள்"
+    ],
+    "real_example_en": "An elderly man in Dindigul received a WhatsApp message saying he had won Rs 25 lakh in a KBC lucky draw. He paid Rs 46,000 across four instalments described as GST, refundable deposit, courier charge and bank clearance.",
+    "real_example_ta": "திண்டுக்கல்லில் ஒரு முதியவருக்கு, KBC லக்கி டிராவில் ரூ.25 லட்சம் வென்றதாக WhatsApp செய்தி வந்தது. GST, திரும்பத் தரக்கூடிய வைப்பு, கூரியர் கட்டணம், வங்கி கிளியரன்ஸ் என்று நான்கு தவணைகளில் ரூ.46,000 செலுத்தினார்.",
+    "helpline": "1930",
+    "tags": "lottery,prize,kbc,lucky draw,fee"
+  }
+]

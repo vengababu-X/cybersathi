@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.vite/
+coverage/
+*.log
+
+# Local env overrides — VITE_API_BASE etc.
+.env
+.env.local

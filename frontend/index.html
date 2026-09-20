@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#1e3a5f" />
+    <meta
+      name="description"
+      content="CyberSathi — multilingual cyber-fraud awareness and digital safety assistant (English + Tamil). Works offline."
+    />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" type="image/svg+xml" href="/shield.svg" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!--
+      Inter and Noto Sans Tamil are self-hosted (see public/fonts/ and scripts/fetch-fonts.py).
+      No CDN, no request to Google: Tamil renders correctly with no internet at all, which is
+      the normal condition in a village hall. Nirmala UI / Latha remain as a final fallback.
+    -->
+    <link rel="stylesheet" href="/fonts/fonts.css" />
+    <title>CyberSathi — Cyber Safety for Everyone</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+# CyberSathi — `docker compose up --build` is the only command needed.
+# Fully offline: no API keys, no external services, no internet at runtime.
+
+services:
+  backend:
+    build:
+      context: ./backend
+    image: cybersathi-backend:1.0.0
+    environment:
+      # Override SECRET_KEY in a real deployment (see .env.example).
+      SECRET_KEY: ${SECRET_KEY:-cybersathi-local-dev-secret-change-me}
+      ACCESS_TOKEN_EXPIRE_MINUTES: ${ACCESS_TOKEN_EXPIRE_MINUTES:-1440}
+      # The SQLite file lives on the named volume below, so the seeded cohort survives rebuilds.
+      DATABASE_URL: sqlite:////data/cybersathi.db
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:8080,http://127.0.0.1:8080}
+      ENABLE_LLM: ${ENABLE_LLM:-false}
+      OLLAMA_BASE_URL: ${OLLAMA_BASE_URL:-http://host.docker.internal:11434}
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-qwen2.5:3b}
+      DEBUG: ${DEBUG:-true}
+    volumes:
+      - cybersathi-db:/data
+    ports:
+      - "8000:8000"
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import urllib.request,sys; sys.exit(0 if urllib.request.urlopen('http://127.0.0.1:8000/health',timeout=4).status==200 else 1)"
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+    image: cybersathi-frontend:1.0.0
+    depends_on:
+      backend:
+        condition: service_healthy
+    ports:
+      - "8080:80"
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://127.0.0.1/"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    restart: unless-stopped
+
+volumes:
+  cybersathi-db:
+    driver: local

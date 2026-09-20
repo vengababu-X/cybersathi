@@ -1,0 +1,134 @@
+{
+  "trained_at": "2026-09-20T07:28:15.116108+00:00",
+  "rows": 815,
+  "rows_phishing": 381,
+  "rows_safe": 434,
+  "best_params": {
+    "max_depth": "None",
+    "min_samples_leaf": "1",
+    "n_estimators": "200"
+  },
+  "test_accuracy": 1.0,
+  "test_macro_f1": 1.0,
+  "precision_phishing": 1.0,
+  "recall_phishing": 1.0,
+  "roc_auc": 1.0,
+  "cv_f1_macro": 0.9975,
+  "cv_std": 0.003,
+  "confusion_matrix": [
+    [
+      87,
+      0
+    ],
+    [
+      0,
+      76
+    ]
+  ],
+  "confusion_labels": [
+    "safe",
+    "phishing"
+  ],
+  "feature_importances": [
+    {
+      "feature": "sensitive_word_hit",
+      "importance": 0.26539
+    },
+    {
+      "feature": "num_hyphens",
+      "importance": 0.12478
+    },
+    {
+      "feature": "suspicious_tld",
+      "importance": 0.11061
+    },
+    {
+      "feature": "digit_ratio",
+      "importance": 0.11026
+    },
+    {
+      "feature": "num_digits",
+      "importance": 0.09201
+    },
+    {
+      "feature": "hyphen_in_domain",
+      "importance": 0.07162
+    },
+    {
+      "feature": "num_dots",
+      "importance": 0.03836
+    },
+    {
+      "feature": "shortener_flag",
+      "importance": 0.03773
+    },
+    {
+      "feature": "host_entropy",
+      "importance": 0.0341
+    },
+    {
+      "feature": "num_subdomains",
+      "importance": 0.02329
+    },
+    {
+      "feature": "hostname_length",
+      "importance": 0.01665
+    },
+    {
+      "feature": "is_typosquat",
+      "importance": 0.01592
+    },
+    {
+      "feature": "url_length",
+      "importance": 0.01385
+    },
+    {
+      "feature": "has_ip_host",
+      "importance": 0.01356
+    },
+    {
+      "feature": "longest_token_length",
+      "importance": 0.00671
+    },
+    {
+      "feature": "tld_length",
+      "importance": 0.00559
+    },
+    {
+      "feature": "port_present",
+      "importance": 0.00502
+    },
+    {
+      "feature": "brand_keyword_hit",
+      "importance": 0.00487
+    },
+    {
+      "feature": "path_depth",
+      "importance": 0.0045
+    },
+    {
+      "feature": "is_https",
+      "importance": 0.00227
+    },
+    {
+      "feature": "num_special_chars",
+      "importance": 0.00178
+    },
+    {
+      "feature": "query_param_count",
+      "importance": 0.00079
+    },
+    {
+      "feature": "has_punycode",
+      "importance": 0.00029
+    },
+    {
+      "feature": "has_at_symbol",
+      "importance": 3e-05
+    },
+    {
+      "feature": "double_slash_in_path",
+      "importance": 0.0
+    }
+  ]
+}

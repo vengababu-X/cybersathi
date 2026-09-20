@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Secrets — never commit a real .env
+.env
+.env.local
+*.key
+*.pem
+
+# Local database (regenerate with: make seed)
+*.db
+*.db-wal
+*.db-shm
+*.sqlite3
+
+# Trained model artifacts (regenerate with: make train)
+app/ml/artifacts/*.joblib
+backend/app/ml/artifacts/*.joblib
+
+# Node / frontend
+node_modules/
+dist/
+build/
+.vite/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Reports and exports
+*.log
+exports/

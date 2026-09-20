@@ -1,0 +1,60 @@
+# Tooling configuration for the backend.
+#
+# Ruff's default rule set is very broad, so the selection is spelled out explicitly:
+# every rule below either catches a real defect class or enforces a style the codebase
+# already follows. Rules that are pure preference are deliberately not enabled, and
+# every ignore carries a reason.
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+
+[tool.ruff.lint]
+select = [
+    "E",    # pycodestyle errors
+    "W",    # pycodestyle warnings
+    "F",    # pyflakes — unused imports, undefined names
+    "I",    # import sorting
+    "B",    # flake8-bugbear — likely bugs
+    "C4",   # comprehensions
+    "PIE",  # misc lints
+    "RUF",  # ruff-specific
+    "UP",   # pyupgrade — modern syntax
+]
+
+ignore = [
+    # Formatters and reviewers handle line width; a long URL or a long bilingual string
+    # is not a defect, and splitting them hurts readability.
+    "E501",
+    # The rule engine compiles patterns with inline flags (re.IGNORECASE | re.UNICODE);
+    # the "scoped" alternative it suggests is not clearer for bilingual regexes.
+    "FURB167",
+    # Typographic dashes and the multiplication sign are intentional in the bilingual
+    # copy and in the documentation that shows the improvement formula.
+    "RUF001",
+    "RUF002",
+    # Changing (str, Enum) to StrEnum alters str()/format() output, which feeds the JSON
+    # persisted in the database. Not worth the behavioural risk for a style rule.
+    "UP042",
+]
+
+[tool.ruff.lint.per-file-ignores]
+# Tests import application modules after manipulating sys.path, and are allowed to be
+# repetitive where that makes a failure easier to read.
+"tests/**" = ["E402", "B008", "S101"]
+# Training scripts are one-shot entry points: prints are the interface.
+"ml_training/**" = ["T201"]
+
+[tool.ruff.lint.flake8-bugbear]
+# FastAPI's dependency injection is used in argument defaults by design:
+#   def route(db: Session = Depends(get_db))
+# Without this, every route trips B008.
+extend-immutable-calls = [
+    "fastapi.Depends",
+    "fastapi.Query",
+    "fastapi.Path",
+    "fastapi.Body",
+    "fastapi.Form",
+    # require_role("admin") is a dependency factory used the FastAPI way, in a default.
+    "app.core.deps.require_role",
+]

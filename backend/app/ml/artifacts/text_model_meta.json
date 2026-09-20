@@ -1,0 +1,46 @@
+{
+  "trained_at": "2026-09-20T07:27:30.960160+00:00",
+  "rows": 850,
+  "rows_scam": 423,
+  "rows_legitimate": 427,
+  "rows_tamil": 298,
+  "binary_best_params": {
+    "clf__C": "1.0"
+  },
+  "binary_cv_f1_macro": 0.9988,
+  "binary_cv_std": 0.0024,
+  "binary_test_accuracy": 0.9941,
+  "binary_test_macro_f1": 0.9941,
+  "binary_precision_scam": 1.0,
+  "binary_recall_scam": 0.9882,
+  "confusion_matrix": [
+    [
+      85,
+      0
+    ],
+    [
+      1,
+      84
+    ]
+  ],
+  "confusion_labels": [
+    "legitimate",
+    "scam"
+  ],
+  "category_classes": [
+    "banking",
+    "courier_parcel",
+    "digital_arrest",
+    "electricity_bill",
+    "impersonation",
+    "investment",
+    "job",
+    "kyc",
+    "loan",
+    "lottery",
+    "otp",
+    "social_media"
+  ],
+  "category_accuracy": 0.9647,
+  "category_macro_f1": 0.9476
+}
