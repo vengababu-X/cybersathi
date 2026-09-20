@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🛡️ CyberSathi
 
 **A Multilingual AI-Based Cyber-Fraud Awareness and Digital Safety Assistant for Communities**
@@ -587,3 +588,6 @@ MIT — free to use, adapt and deploy for awareness work.
 
 **This tool is advisory only. It is not a guarantee, and it cannot recover money.
 For any real incident, call 1930 immediately.**
+=======
+# cybersathi
+>>>>>>> f09845f8271039b7aee5febb9b3a11f6524f64c4
