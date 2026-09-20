@@ -1,0 +1,25 @@
+
+services:
+  - type: web
+    name: cybersathi-backend
+    runtime: python
+    region: oregon
+    plan: free
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: SECRET_KEY
+        value: c7f4e912b3a846f1d052c9e78b14a3f62e81d09c3b7a4f21e5d8c6b9a0f3e214
+      - key: ACCESS_TOKEN_EXPIRE_MINUTES
+        value: "30"
+      - key: DATABASE_URL
+        value: sqlite:///./cybersathi.db
+      - key: CORS_ORIGINS
+        value: "*"
+      - key: ENABLE_LLM
+        value: "false"
+      - key: DEBUG
+        value: "false"
+      - key: RATE_LIMIT_PER_MINUTE
+        value: "60"
+
